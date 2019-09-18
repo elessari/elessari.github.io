@@ -64,7 +64,7 @@ main {
     border-radius: 100%;
 }
 
-section {
+#si-section {
     background: rgba(0,0,0,0.05);
     min-height: 16em;
     min-width: 16em;
