@@ -1,0 +1,155 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#bodyBG {
+    background-color: #EEEEEE;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 35% 10% 10%;
+    grid-gap: 0;
+    padding: .5em;
+    margin: 1em auto;
+}
+
+.grid > section {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 50%;
+
+}
+
+header {
+    border-bottom: 3px solid #410d63;
+}
+
+nav {
+    display: inline-block !important;
+    padding: 1em 2em;
+}
+
+main {
+    height: 80vh;
+}
+
+#myMenu, #myName {
+    display: inline-block;
+}
+
+#myMenu {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: normal;
+    color: #410d63;
+}
+
+#myName {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #410d63;
+}
+
+#myImage {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    border: 3px solid #410d63;
+    padding: 0;
+    margin: .5em;
+    width: 10em;
+    border-radius: 100%;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#enterSite {
+    text-transform: uppercase;
+    margin: 2em;
+    background: #410d63;
+    border: none;
+    color: #EEE;
+    padding: 1em 2em;
+    opacity: 0;
+    transition: opacity 1s;
+    transition: padding .3s;
+    cursor: pointer;
+}
+
+#enterSite:hover {
+    padding: 1.25em 2.25em;
+    transition: padding .3s;
+}
+
+#toggleTheme {
+    text-transform: uppercase;
+    background: #410d63;
+    border: none;
+    color: #EEE;
+    padding: .5em;
+    cursor: pointer;
+    float: right;
+    margin: 1.5em 1em 1em 0;
+}
+
+footer {
+    width: 100%;
+    padding: 0;
+    font-size: .5em;
+    text-align: center;
+    position: relative;
+    bottom: 2em;
+}
+
+footer p {
+
+}
+
+@media only screen and (max-width: 512px) {
+    #intro {
+        max-width: 100% !important;
+    }
+    #myName {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    nav {
+        padding: 1em !important;
+    }
+    .grid {
+        grid-template-rows: auto;
+    }
+    main {
+        height: auto;
+    }
+    
+    .grid > section {
+        max-width: 100% !important;
+    }
+}
