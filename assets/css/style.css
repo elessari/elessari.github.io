@@ -64,13 +64,14 @@ main {
     border-radius: 100%;
 }
 
-#si-section {
+#si-section, #wow-section {
     background: rgba(0,0,0,0.05);
     min-height: 16em;
     min-width: 16em;
     animation-name: fadein;
     animation-iteration-count: 1;
     animation-duration: 2s;
+    display: inline-block;
 }
 
 a {
