@@ -151,6 +151,11 @@ main {
     color: #410d63;
     font-weight: bold;
     font-size: 18px;
+    animation-name: fadein;
+    -webkit-animation: fadein;
+    -moz-animation: fadein;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
 }
 
 ul {
