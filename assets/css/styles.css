@@ -1,166 +1,196 @@
-    html {
-      width: 100%;
-      overflow-x: hidden;
-    }
-    body {
-      background: url("../media/images/background.svg");
-      background-repeat: no-repeat;
-      background-size: 100%;
-      background-color: #000000;
-      color: #FBB03B;
-      font-family: "Montserrat";
-      font-size: 16px;
-    }
-    header {
-      min-height: 64px;
-      position: relative;
-      top: 20rem;
-      display: block;
-      z-index: 5000;
-    }
-    h1 {
-      font-size: 3em;
-      font-weight: normal;
-      text-transform: uppercase;
-      display: block;
-      width: 90rem;
-      margin: auto;
-    }
-    h2 {
-      text-transform: uppercase;
-      font-weight: normal;
-    }
-    nav {
-      display: block;
-      width: 90rem;
-      margin: auto;
-    }
-    nav ul {
-      display: inline-block;
-      list-style-type: none;
-      padding: 0;
-    }
-    nav ul li {
-      display: inline-block;
-    }
-    nav ul li a {
-      text-decoration: none;
-      text-transform: uppercase;
-      color: #FBB03B;
-    }
-    
-    nav ul li a:hover {
-      color: #FFFFFF;
-    }
-    footer {
-      font-size: .75em;
-      /*color: #FFF;*/
-    }
-    
-    footer p {
-      text-align: center;
-    }
-    
-    footer a {
-      text-decoration: none;
-      color: #FFFFFF;
-    }
-    
-    footer a:hover {
-      color: #FBB03B;
-    }
-    
-    main {
-      width: 90rem;
-      display: block;
-      margin: auto;
-    }
-    #about {
-      min-height: 400px;
-    }
-    
-    #about p {
-      width: 65rem;
-      color: white;
-    }
+/*
+ * Main color: #410d63;
+ * Bubba was here
+*/
 
-    /* Create three equal columns that floats next to each other */
-    .column {
-        float: left;
-        width: 26rem;
-        max-width: 26rem;
-        margin: 12px 30px;
-        color: black;
-    }
-    .column h3 {
-      text-align: center;
-    }
-    .row {}
-    /* Clear floats after the columns */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    .container {
-      position: relative;
-      /*border-radius: 100%;*/
-    }
-    #me {
-      width: 18em;
-      float: left;
-      margin: 1em;
-      border: 4px solid #EEE;
-    }
-    .image {
-      display: block;
-      width: 100%;
-      height: 100%;
-     /* border-radius: 100%;*/
-      opacity: .8;
-    }
-    .container h3 {
-      position: absolute;
-      position: absolute;
-      z-index: 5000;
-      top: 10%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    .overlay {
-      /*border-radius: 100%;*/
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      opacity: 0;
-      transition: .5s ease;
-      background-color: #FBB03B;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
 
-    .container:hover .overlay {
-      opacity: .8;
-    }
+html {
+    min-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 
-    .text {
-      color: white;
-      font-size: 36px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    #tagline {
-      font-weight: bold;
-      font-size: 1.5em;
-      color: #FBB03B !important;
-    }
+body {
+    font-family: "Montserrat";
+    font-size: 16px;
+    background: #fafafa;
+    color: #303030;
+}
+
+#tagline {
+    position: absolute;
+    text-transform: none;
+    top: 1em;
+    left: 9em;
+    color: rgba(65,13,99,0.5);
+    margin: 0;
+    text-shadow: 4px 4px 1px #ddd;
+}
+
+@-webkit-keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-moz-keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-o-keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.quote {
+    font-size: 1.5em;
+    color: #410d63;
+    font-family: "Arial", Arial, sans-serif;
+    font-weight: bold;
+}
+
+header {
+    height: 100vh;
+    width: 20rem;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #F5E9DC;
+    box-shadow: 2px 0 4px #AAA;
+}
+
+#logo {
+    padding: 1em;
+    float: right;
+    width: 3em;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #410d63;
+    margin: 20px 0 10px 20px;
+
+}
+
+h2 {
+    font-family: "Montserrat";
+    color: #410d63;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#me {
+    border: 4px solid #410d63;
+    display: block;
+    width: 7em;
+    margin: 1em auto;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background: #410d63;
+}
+
+header > p {
+    text-align: center;
+    margin: .5em;
+    font-family: "Montserrat";
+}
+
+header > h3 {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #410d63;
+    margin: 10px 20px;
+}
+
+#resume {
+    width: 2em;
+    padding: 2px;
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+}
+
+h3 {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #410d63;
+    font-size: 1.5em;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    width: 40em;
+    margin: auto;
+    margin-left: 22em;
+    margin-top: 10em;
+}
+
+#intro > p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #410d63;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: "Montserrat";
+}
+
+ul li {
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section {
+    margin: 1em;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    grid-gap: 1em;
+}
+
+#projects img {
+    width: 10em;
+}
+
+section > p {
+    margin: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 20rem;
+    font-size: .75em;
+}
+
+footer p {
+    text-align: center;
+    margin: 1em;
+}
