@@ -1,5 +1,6 @@
 /*
  * Main color: #410d63;
+ * #F5E9DC
  * Bubba was here
 */
 
@@ -62,7 +63,7 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    background: #F5E9DC;
+    background: #efefef;
     box-shadow: 2px 0 4px #AAA;
 }
 
