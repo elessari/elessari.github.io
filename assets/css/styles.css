@@ -18,16 +18,19 @@ html {
 body {
     font-family: "Montserrat";
     font-size: 16px;
-    background: #fafafa;
+    background:white;
     color: #303030;
 }
 
 #tagline {
+    font-family: "Great Vibes", cursive;
+    letter-spacing: 4px;
+    font-size: 3em;
     position: absolute;
     text-transform: none;
-    top: 1em;
-    left: 9em;
-    color: rgba(65,13,99,0.5);
+    top: .5em;
+    left: 7.5em;
+    color: #410d63;
     margin: 0;
     text-shadow: 4px 4px 1px #ddd;
 }
@@ -52,7 +55,7 @@ body {
 .quote {
     font-size: 1.5em;
     color: #410d63;
-    font-family: "Arial", Arial, sans-serif;
+    font-family: "Great Vibes", cursive;
     font-weight: bold;
 }
 
@@ -63,8 +66,8 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    background: #efefef;
-    box-shadow: 2px 0 4px #AAA;
+    background: #410d63;
+    color: white;
 }
 
 #logo {
@@ -78,14 +81,12 @@ h1 {
     font-weight: normal;
     font-size: 2.5em;
     text-transform: uppercase;
-    color: #410d63;
     margin: 20px 0 10px 20px;
 
 }
 
 h2 {
     font-family: "Montserrat";
-    color: #410d63;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -101,7 +102,7 @@ h2 {
 hr {
     height: 2px;
     border: none;
-    background: #410d63;
+    background: white;
 }
 
 header > p {
@@ -113,34 +114,69 @@ header > p {
 header > h3 {
     font-family: "Montserrat";
     text-transform: uppercase;
-    color: #410d63;
     margin: 10px 20px;
 }
 
-#resume {
-    width: 2em;
-    padding: 2px;
-    display: block;
-    margin: auto;
-    margin-top: 2em;
+#my-links {
+    height: 40px;
+    max-height: 40px;
 }
 
-h3 {
+.links {
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s ease;
+    padding: 10px;
+}
+
+#linkedin {
+
+}
+
+.links:hover {
+    font-size: 2em;
+    transition: 1s ease;
+}
+
+main h3 {
     font-family: "Montserrat";
     text-transform: uppercase;
     color: #410d63;
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 main {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 1em;
-    width: 40em;
+    width: 80em;
     margin: auto;
-    margin-left: 22em;
+    margin-left: 2em;
     margin-top: 10em;
+    margin-bottom: 2em;
 }
+
+#intro {
+    height: 256px;
+}
+
+section {
+    box-shadow: 2px 2px 4px #888;
+    background: #fff;
+    padding: 20px;
+    padding-left: 20em;
+    border-top: 4px solid #410d63;
+    margin: 1em;
+}
+
+.project-span {
+    text-align: center;
+    width: auto;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 
 #intro > p {
     margin-top: 30px;
@@ -158,6 +194,18 @@ main {
     animation-iteration-count: 1;
 }
 
+#rit-span {
+}
+
+#ux-span {}
+
+#club-span {}
+
+#title-span {}
+
+#prof-span {}
+
+
 ul {
     list-style-type: none;
     font-family: "Montserrat";
@@ -169,10 +217,6 @@ ul li {
     margin-bottom: 5px;
 }
 
-section {
-    margin: 1em;
-}
-
 #projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -181,7 +225,8 @@ section {
 }
 
 #projects img {
-    width: 10em;
+    display: block;
+    margin: auto;
 }
 
 section > p {
@@ -199,4 +244,8 @@ footer {
 footer p {
     text-align: center;
     margin: 1em;
+}
+
+#si, #wow, #comp {
+    height: 10em;
 }
