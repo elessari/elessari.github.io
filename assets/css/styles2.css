@@ -249,8 +249,9 @@ nav ul li a:active, nav ul li a:hover {
 
 footer {
     display: block;
-    max-width: 250px;
+    max-width: 200px;
     margin: 2em auto;
+    margin-bottom: 0;
 }
 
 footer p {
@@ -259,6 +260,5 @@ footer p {
     color: #f7edf0;
     width: auto;
     padding: 1em;
-    background: rgba(0,0,0,0.1);
-    border-radius: 2px;
+    text-shadow: 0 0 8px #000;
 }
