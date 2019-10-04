@@ -41,22 +41,25 @@ body {
     font-size: 14px;
     background: #fff;
     color: #171738;
-    background: #f9f4f5;
-    background-size: initial;
+    background-color: #f9f4f5;
+    background: url('../images/new_marble.svg');
+    background-size: cover;
 }
 
+
 #logo {
-    width: 3em;
+    font-size: 3em;
     transition: .5s ease;
-    margin: 1em;
+    margin: 0 .5em;
     float: left;
     animation-name: fadein;
     animation-duration: 1s;
     animation-iteration-count: 1;
+    text-decoration: none;
 }
 
 #logo:hover {
-    width: 3.5em;
+    font-size: 3.5em;
     transition: .5s ease;
 }
 
@@ -126,16 +129,16 @@ section {
     box-shadow: box-shadow: 0 0 8px 8px #f9f4f5 inset;*/
     border-bottom: 8px solid #f7edf0;
     transition: .5s ease;
+    box-shadow: 0 0 32px 4px #f9f4f5 inset;
+    background: rgba(255,255,255,0.25);
 }
 
-#si {
-    background: url('../images/marble_tile.jpg');
-    box-shadow: 0 0 16px 2px #f9f4f5 inset;
-    filter: blur(1px);
+#about-s {
+    height: auto;
 }
 
-section:hover {
-    
+#about-p {
+    padding: 2em;
 }
 
 .overlay {
@@ -211,4 +214,7 @@ footer {
 
 footer p {
     text-align: center;
+    font-weight: bold;
+    color: #f7edf0;
+    text-shadow: 1px 0 0 #444;
 }

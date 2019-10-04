@@ -1,4 +1,5 @@
 var header;
+var floral_p;
 var i = 0;
 var speed = 50;
 var text = "Hey, I'm Sierra, a UX Developer.";
