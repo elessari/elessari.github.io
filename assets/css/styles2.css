@@ -121,18 +121,19 @@ main {
     margin: auto;
 }
 
-#projects {
+.projects {
     width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 4em;
+    grid-gap: 4em 2em;
 
 }
 
 #about {
     width: 100%;
     display: block;
+    margin-top: 4em;
 }
 
 section {
@@ -181,19 +182,19 @@ section {
     opacity: 1;
 }
 
-#si h3 {
+#si h3, #wow h3, #comp h3, #graphic h3 {
     position: absolute;
-    padding: 2.5em 1.5em;
-    font-size: 3em;
+    padding: 5em .5em;
+    font-size: 2.5em;
     z-index: -1;
     color: #171738;
 }
 
-#si p {
+#si p, #wow p, #comp p, #graphic p {
     margin-top: 1em;
 }
 
-#si-bg {
+#si-bg, #wow-bg, #comp-bg, #graphic-bg {
     width: 100%;
     height: 100%;
     opacity: 0.5;
@@ -203,7 +204,7 @@ section {
     box-shadow: 0 0 32px 8px #f9f4f5 inset;
 }
 
-#si-bg:hover {
+#si-bg:hover, #wow-bg:hover, #comp-bg:hover, #graphic-bg:hover {
     opacity: 0;
     transition: .5s ease;
 }
@@ -267,7 +268,7 @@ footer p {
 
 /* Media queries */
 @media only screen and (max-width: 1024px) {
-    #projects {
+    .projects {
         grid-gap: 6em 2em;
     }
 
@@ -277,7 +278,7 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
-    #projects {
+    .projects {
         grid-gap: 7em 2em;
     }
 
@@ -314,7 +315,7 @@ footer p {
         margin-top: 15vh !important;
     }
 
-    #projects {
+    .projects {
         grid-template-columns: 1fr;
         grid-gap: 7em;
     }
