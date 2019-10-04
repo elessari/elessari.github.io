@@ -266,6 +266,16 @@ footer p {
 
 
 /* Media queries */
+@media only screen and (max-width: 768px) {
+    #projects {
+        grid-gap: 7em;
+    }
+
+    #si h3 {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 512px) {
     header {
         background: #d1d1cc;
