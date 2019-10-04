@@ -298,4 +298,21 @@ footer p {
         grid-template-columns: 1fr;
         grid-gap: 7em;
     }
+
+    #si h3 {
+        display: none;
+    }
+}
+
+
+/* accommodating for very small devices */
+@media only screen and (max-width: 320px) {
+    #tagline {
+        font-size: 1.5em;
+        margin-top: 3em;
+    }
+
+    nav ul li a {
+        padding: 0 .25em;
+    }
 }
