@@ -66,6 +66,22 @@ header {
     width: 100%;
 }
 
+.blinking-cursor {
+    font-size: 2em;
+    color: black;
+    animation: 1s fadein step-end infinite;
+    -moz-animation: 1s fadein step-end infinite;
+    -webkit-animation: 1s fadein step-end infinite;
+}
+
+h1 {
+    position: relative;
+    top: 2em;
+    font-size: 3em;
+    text-align: center;
+    color: #410d63;
+}
+
 h2 {
     text-transform: lowercase;
     margin: 1em 0;
@@ -108,8 +124,14 @@ section {
     background-size: 100%;
     filter: blur(1px);
     box-shadow: box-shadow: 0 0 8px 8px #f9f4f5 inset;*/
-    border: 1px solid #000;
+    border-bottom: 8px solid #f7edf0;
     transition: .5s ease;
+}
+
+#si {
+    background: url('../images/marble_tile.jpg');
+    box-shadow: 0 0 16px 2px #f9f4f5 inset;
+    filter: blur(1px);
 }
 
 section:hover {
