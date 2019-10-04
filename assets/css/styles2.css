@@ -266,9 +266,19 @@ footer p {
 
 
 /* Media queries */
+@media only screen and (max-width: 1024px) {
+    #projects {
+        grid-gap: 6em 2em;
+    }
+
+    #si h3 {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     #projects {
-        grid-gap: 7em;
+        grid-gap: 7em 2em;
     }
 
     #si h3 {
