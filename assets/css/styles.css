@@ -18,8 +18,10 @@ html {
 body {
     font-family: "Montserrat";
     font-size: 16px;
-    background:white;
     color: #303030;
+    background: url("../images/marble_tile.jpg");
+    background-repeat: x;
+    background-size: initial;
 }
 
 #tagline {
@@ -71,9 +73,16 @@ header {
 }
 
 #logo {
+    background: url("../images/floral_icon.svg");
+    transition: 1s ease;
     padding: 1em;
-    float: right;
+    float: left;
     width: 3em;
+}
+
+#logo:hover {
+    width: 4em;
+    transition: 1s ease;
 }
 
 h1 {
