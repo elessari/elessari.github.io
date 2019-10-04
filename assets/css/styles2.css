@@ -52,7 +52,8 @@ body {
     background: url('../images/new_marble.jpg');
     background-size: cover;
     background-repeat: repeat-y;
-    filter: blur(4px);
+    filter: blur(8px);
+    filter: invert(5%);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -261,4 +262,40 @@ footer p {
     width: auto;
     padding: 1em;
     text-shadow: 0 0 8px #000;
+}
+
+
+/* Media queries */
+@media only screen and (max-width: 512px) {
+    header {
+        background: #d1d1cc;
+        z-index: 5;
+    }
+
+    #logo {
+        padding-top: .15em;
+    }
+
+    nav {
+        float: initial;
+        padding-top: 1em;
+    }
+
+    nav ul li:first-child {
+        display: none;
+    }
+
+    #tagline {
+        font-size: 2em;
+        margin-top: 2em;
+    }
+
+    main {
+        margin-top: 15vh !important;
+    }
+
+    #projects {
+        grid-template-columns: 1fr;
+        grid-gap: 7em;
+    }
 }
