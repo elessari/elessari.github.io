@@ -183,8 +183,8 @@ section {
 
 #si h3 {
     position: absolute;
-    padding: 3.5em 4.5em;
-    font-size: 2em;
+    padding: 2.5em 1.5em;
+    font-size: 3em;
     z-index: -1;
     color: #171738;
 }
