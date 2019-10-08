@@ -98,7 +98,6 @@ h1 {
     font-size: 3em;
     text-align: center;
     color: #410d63;
-    text-transform: lowercase;
 }
 
 h2 {
@@ -279,6 +278,9 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
+    #blur {
+        height: 100%;
+    }
     .projects {
         grid-gap: 7em 2em;
     }
