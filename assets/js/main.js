@@ -1,5 +1,6 @@
 var header;
-var floral_p;
+var span;
+var floral_p = " ☙";
 var i = 0;
 var speed = 50;
 var text = "Hey, I'm Sierra, a UX Developer.";
@@ -12,4 +13,15 @@ function loadHeader() {
         i++;
         setTimeout(loadHeader, speed);
     }
+    else {
+        loadFlower();
+    }
+}
+
+function loadFlower() {
+    span = document.getElementById("floral");
+
+    
+    span.innerHTML += floral_p;
+    span.style.opacity = "1";
 }
