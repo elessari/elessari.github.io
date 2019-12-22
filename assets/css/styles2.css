@@ -85,7 +85,6 @@ body {
     color: #410d63;
     font-size: 3em;
     transition: .5s ease;
-    margin: 0 .5em;
     float: left;
     animation-name: fadein;
     animation-duration: 2s;
