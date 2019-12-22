@@ -56,7 +56,7 @@ html {
 body {
     font-family: "Montserrat";
     font-size: 14px;
-    background: #fff;
+    background: #fafafa;
     color: #171738;
     background-color: #f9f4f5;
     position: relative;
@@ -67,7 +67,7 @@ body {
 
 #blur {
     z-index: -1;
-    background: url('../images/new_marble.jpg');
+    /*background: url('../images/new_marble.jpg');*/
     background-size: cover;
     background-repeat: repeat-y;
     filter: blur(8px);
@@ -100,7 +100,6 @@ header {
     top: 0;
     width: 70vw;
     z-index: 50;
-    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0));
 }
 
 .blinking-cursor {
