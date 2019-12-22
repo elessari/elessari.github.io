@@ -178,7 +178,7 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-gap: 5em 2em;
     box-shadow: 0 0 32px 8px #f9f4f5 inset;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.2);
     box-sizing: border-box;
     padding: 2rem 2rem 4rem 2rem;
     border-bottom: 8px solid #410d63;
@@ -190,7 +190,7 @@ main {
     width: 100%;
     display: block;
     margin-top: 2em;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.2);
 }
 
 section {
