@@ -98,6 +98,8 @@ body {
 header {
     position: fixed;
     top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 70vw;
     z-index: 50;
     display: block;
