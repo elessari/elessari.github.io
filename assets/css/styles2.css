@@ -194,10 +194,7 @@ main {
 section {
     height: 256px;
     width: 100%;
-    /*background: url("../images/marble_tile_2.jpg");
-    background-size: 100%;
-    filter: blur(1px);
-    box-shadow: box-shadow: 0 0 8px 8px #f9f4f5 inset;*/
+    background: rgba(255,255,255,0.2);
     transition: .5s ease;
     box-shadow: 0 0 32px 8px #f9f4f5 inset;
     background: rgba(255,255,255,0.01);
