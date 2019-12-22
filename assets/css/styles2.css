@@ -70,7 +70,7 @@ body {
 
 #blur {
     z-index: -1;
-    /*background: url('../images/new_marble.jpg');*/
+    background: url('../images/new_marble.jpg');
     background-size: cover;
     background-repeat: repeat-y;
     filter: blur(8px);
