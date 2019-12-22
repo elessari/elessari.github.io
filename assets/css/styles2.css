@@ -176,7 +176,7 @@ main {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 4em 2em;
+    grid-gap: 5em 2em;
     box-shadow: 0 0 32px 8px #f9f4f5 inset;
     background: rgba(255,255,255,0.01);
     box-sizing: border-box;
