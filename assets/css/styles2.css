@@ -106,7 +106,7 @@ header {
 }
 
 header div {
-    width: 70%;
+    width: 70vw;
     display: block;
     margin: 0 auto;
 }
