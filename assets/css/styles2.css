@@ -54,7 +54,7 @@ html {
 }
 
 body {
-    font-family: "Montserrat";
+    font-family: "Poppins";
     font-size: 14px;
     background: #fafafa;
     color: #171738;
@@ -100,6 +100,8 @@ header {
     top: 0;
     width: 70vw;
     z-index: 50;
+    display: block;
+    margin: 0 auto;
 }
 
 .blinking-cursor {
