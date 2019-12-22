@@ -3,7 +3,7 @@ var span;
 var floral_p = " ☙";
 var i = 0;
 var speed = 50;
-var text = "Hey, I'm Sierra, a UX Developer.";
+var text = "Hey, I'm Sierra, a UX Designer.";
 
 function loadHeader() {
     header = document.getElementById("tagline");
