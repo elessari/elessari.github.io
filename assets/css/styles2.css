@@ -185,7 +185,6 @@ main {
     width: 100%;
     display: block;
     margin-top: 2em;
-    border-bottom: 8px solid #410d63;
 }
 
 section {
@@ -202,6 +201,7 @@ section {
 
 #about-s {
     height: auto;
+    border-bottom: 8px solid #410d63;
 }
 
 #about-p {
