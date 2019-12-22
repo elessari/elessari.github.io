@@ -98,7 +98,7 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 70vw;
     z-index: 50;
     background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0));
 }
@@ -157,7 +157,7 @@ hr {
 
 main {
     display: block;
-    width: 80vw;
+    width: 70vw;
     margin-top: 20vh !important;
     margin: auto;
 }
