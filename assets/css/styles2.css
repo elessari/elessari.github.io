@@ -110,8 +110,6 @@ header div {
     width: 70%;
     display: block;
     margin: 0 auto;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .blinking-cursor {
