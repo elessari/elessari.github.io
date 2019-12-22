@@ -62,6 +62,10 @@ body {
     top: 0;
     left: 0;
     border-left: 4px solid #410d63;
+    animation-name: fadein;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    text-decoration: none;
 }
 
 #blur {
