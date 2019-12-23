@@ -105,7 +105,7 @@ header {
 }
 
 header div {
-    width: 70rem;
+    width: 60rem;
     display: block;
     margin: 0 auto;
 }
@@ -165,7 +165,7 @@ hr {
 
 main {
     display: block;
-    max-width: 70rem;
+    max-width: 60rem;
     margin-top: 20vh !important;
     margin: auto;
 }
