@@ -100,7 +100,7 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100rem;
+    width: 100vw;
     z-index: 50;
 }
 
