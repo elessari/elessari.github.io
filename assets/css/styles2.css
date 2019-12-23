@@ -208,6 +208,7 @@ section {
 
 #about-p {
     padding: 2em;
+    font-family: "Quicksand";
 }
 
 .overlay {
@@ -245,6 +246,7 @@ section {
 
 #si p, #wow p, #comp p, #graphic p {
     margin: .5em 0;
+    font-family: "Quicksand";
 }
 
 #si-bg, #wow-bg, #comp-bg, #graphic-bg {
