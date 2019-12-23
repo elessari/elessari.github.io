@@ -192,7 +192,7 @@ main {
 }
 
 section {
-    height: 256px;
+    height: 224px;
     width: 100%;
     background: rgba(255,255,255,0.1);
     transition: .5s ease;
@@ -237,7 +237,7 @@ section {
 
 #si h3, #wow h3, #comp h3, #graphic h3 {
     position: absolute;
-    padding: 5.5em .5em;
+    padding: 5em .5em;
     font-size: 2.5em;
     z-index: -1;
     color: #171738;
