@@ -208,7 +208,7 @@ section {
 
 #about-p {
     padding: 2em;
-    font-family: "Roboto";
+    font-family: "Open Sans";
 }
 
 .overlay {
@@ -246,7 +246,7 @@ section {
 
 #si p, #wow p, #comp p, #graphic p {
     margin: .5em 0;
-    font-family: "Roboto";
+    font-family: "Open Sans";
 }
 
 #si-bg, #wow-bg, #comp-bg, #graphic-bg {
