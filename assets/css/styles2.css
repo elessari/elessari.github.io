@@ -245,7 +245,6 @@ section {
 }
 
 #si p, #wow p, #comp p, #graphic p {
-    margin: .5em 0;
     font-family: "Roboto Mono";
 }
 
