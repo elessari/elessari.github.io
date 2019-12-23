@@ -208,7 +208,7 @@ section {
 
 #about-p {
     padding: 2em;
-    font-family: "Quicksand";
+    font-family: "Roboto Mono";
 }
 
 .overlay {
@@ -246,7 +246,7 @@ section {
 
 #si p, #wow p, #comp p, #graphic p {
     margin: .5em 0;
-    font-family: "Quicksand";
+    font-family: "Roboto Mono";
 }
 
 #si-bg, #wow-bg, #comp-bg, #graphic-bg {
