@@ -278,17 +278,17 @@ nav ul {
 nav ul li {
     height: 100%;
     padding-top: 1em;
+    text-align: right;
 }
 
 nav ul li a {
-    text-align: right;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 1.5em;
     text-transform: lowercase;
     text-decoration: none;
     height: 100%;
     margin: 1em .5em;
-    color: #171738;
+    color: #410d63;
     padding: 1em;
     position: relative;
     left: 0;
