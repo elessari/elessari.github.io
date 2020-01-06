@@ -90,7 +90,7 @@ body {
     animation-duration: 2s;
     animation-iteration-count: 1;
     text-decoration: none;
-    padding: 1em;
+    padding: 2rem;
 }
 
 #logo:hover {
@@ -267,7 +267,7 @@ nav {
     float: right;
     right: 0;
     display: block;
-    padding: 1em;
+    padding: 2rem;
 }
 
 nav ul {
