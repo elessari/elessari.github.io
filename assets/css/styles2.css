@@ -270,6 +270,7 @@ nav {
     float: right;
     right: 0;
     display: block;
+    padding: 1em;
 }
 
 nav ul {
@@ -291,13 +292,11 @@ nav ul li a {
     margin: 1em .5em;
     color: #171738;
     padding: 1em;
-    border-left: 0px solid #410d63;
     transition: .3s ease;
 }
 
 nav ul li a:active, nav ul li a:hover {
     cursor: pointer;
-    border-left: 6px solid #410d63;
     transition: .3s ease;
 }
 
