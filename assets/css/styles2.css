@@ -73,7 +73,7 @@ body {
     background: url('../images/new_marble.jpg');
     background-size: cover;
     background-repeat: repeat-y;
-    filter: blur(8px);
+    filter: blur(4px);
     filter: invert(5%);
     position: absolute;
     width: 100%;
