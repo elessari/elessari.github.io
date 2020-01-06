@@ -293,11 +293,14 @@ nav ul li a {
     margin: 1em .5em;
     color: #171738;
     padding: 1em;
+    position: relative;
+    left: 0;
     transition: .3s ease;
 }
 
 nav ul li a:active, nav ul li a:hover {
     cursor: pointer;
+    left: -20px;
     transition: .3s ease;
 }
 
