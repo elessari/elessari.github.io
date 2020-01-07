@@ -350,6 +350,11 @@ p a {
     min-height: 600px;
     display: block;
     padding: 2em;
+    border-radius: 10px;
+}
+
+.modal-content h2 {
+    margin: 0 !important;
 }
 
 .modal-close {
