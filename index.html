@@ -119,18 +119,45 @@
     </div>
     <script type="text/javascript">
       var modal = document.getElementById('myModal');
+      var modal2 = document.getElementById('myModal2');
+      var modal3 = document.getElementById('myModal3');
+      var modal4 = document.getElementById('myModal4');
 
-      function makeModal(event) {
-        console.log(event.target);
+      function makeModal() {
         modal.classList.remove('modal-close');
         modal.style.display = "block";
+      }
+      function makeModal2() {
+        modal2.classList.remove('modal-close');
+        modal2.style.display = "block";
+      }
+
+      function makeModal3() {
+        modal3.classList.remove('modal-close');
+        modal3.style.display = "block";
+      }
+
+      function makeModal4() {
+        modal4.classList.remove('modal-close');
+        modal4.style.display = "block";
       }
 
       window.onclick = function(event) {
         if(event.target == modal) {
           modal.classList.add('modal-close');
-          modal.style.display = "none";
-          
+          modal.style.display = "none"; 
+        }
+        else if(event.target == modal2) {
+          modal2.classList.add('modal-close');
+          modal2.style.display = "none"; 
+        }
+        else if(event.target == modal3) {
+          modal3.classList.add('modal-close');
+          modal3.style.display = "none"; 
+        }
+        else if(event.target == modal4) {
+          modal4.classList.add('modal-close');
+          modal4.style.display = "none"; 
         }
       }
     </script>
