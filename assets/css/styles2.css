@@ -357,6 +357,10 @@ p a {
     margin: 0 !important;
 }
 
+.modal-content div {
+    font-family: "Open Sans";
+}
+
 .modal-close {
     opacity: 1;
     animation-name: fadeout;
