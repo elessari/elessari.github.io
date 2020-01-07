@@ -117,9 +117,9 @@
     </div>
     <script type="text/javascript">
       var modal = document.getElementById('myModal');
-      //console.log(event.target);
 
-      function makeModal() {
+      function makeModal(event) {
+        console.log(event.target);
         modal.classList.remove('modal-close');
         modal.style.display = "block";
       }
