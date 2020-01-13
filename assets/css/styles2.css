@@ -440,14 +440,15 @@ p a {
         padding-top: .15em;
     }
 
-    nav {
-        float: initial;
-        padding-top: 1em;
+    nav ul li {
+        display: inline-block;
     }
 
     nav ul li:first-child {
         display: none;
     }
+
+
 
     #tagline {
         font-size: 2em;
