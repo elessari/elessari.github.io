@@ -372,7 +372,7 @@ p a {
 }
 
 /* Media queries */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
     #tag {
         padding: 20rem 2rem;
         max-width: 1000px;
