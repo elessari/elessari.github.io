@@ -372,6 +372,15 @@ p a {
 }
 
 /* Media queries */
+@media only screen and (min-width: 1200px) {
+    #tag {
+        padding: 20rem 2rem;
+
+    }
+    h1 {
+        font-size: 4rem;
+    }
+}
 @media only screen and (max-width: 1024px) {
     #tag {
         max-width: 90vw;
