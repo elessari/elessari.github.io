@@ -373,6 +373,9 @@ p a {
 
 /* Media queries */
 @media only screen and (min-width: 1400px) {
+    header {
+        font-size: 2.5rem;
+    }
     #tag {
         padding: 20rem 2rem;
         max-width: 1000px;
