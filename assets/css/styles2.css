@@ -375,10 +375,11 @@ p a {
 @media only screen and (min-width: 1200px) {
     #tag {
         padding: 20rem 2rem;
+        max-width: 1000px;
 
     }
     h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
 @media only screen and (max-width: 1024px) {
