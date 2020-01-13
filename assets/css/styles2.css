@@ -381,7 +381,7 @@ p a {
         max-width: 1000px;
 
     }
-    h1 {
+    h1, #floral {
         font-size: 3.5rem;
     }
 }
