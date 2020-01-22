@@ -370,6 +370,10 @@ p a {
     -webkit-animation-duration: .3s;
 }
 
+.modal-image {
+    max-width: 500px;
+}
+
 /* Media queries */
 @media only screen and (min-width: 1400px) {
     header {
