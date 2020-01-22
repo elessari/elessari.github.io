@@ -358,6 +358,9 @@ p a {
 
 .modal-content div {
     font-family: "Open Sans";
+    width: 900px;
+    display: block;
+    margin: 0 auto;
 }
 
 .modal-close {
@@ -371,7 +374,9 @@ p a {
 }
 
 .modal-image {
-    max-width: 500px;
+    max-width: 90%;
+    border-radius: 2px;
+    border: 4px solid #410d63;
 }
 
 /* Media queries */
