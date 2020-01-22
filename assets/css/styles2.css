@@ -358,11 +358,11 @@ p a {
 
 .modal-content div {
     font-family: "Open Sans";
-    width: 900px;
-    display: block;
-    margin: 0 auto;
 }
 
+.modal-content img {
+    border-left: 4px solid #ccc;
+}
 .modal-close {
     opacity: 1;
     animation-name: fadeout;
@@ -374,9 +374,8 @@ p a {
 }
 
 .modal-image {
-    max-width: 90%;
+    max-width: 100%;
     border-radius: 2px;
-    border: 4px solid #410d63;
 }
 
 /* Media queries */
