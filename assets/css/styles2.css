@@ -442,13 +442,19 @@ p a {
     header {
         background: #d1d1cc;
         z-index: 5;
+        height: 64px;
     }
 
     #logo {
-        padding-top: .15em;
+        padding: 0 1rem;
+    }
+
+    nav {
+        padding: .75rem 0;
     }
 
     nav ul li {
+        font-size: .6rem;
         display: inline-block;
     }
 
@@ -456,15 +462,13 @@ p a {
         display: none;
     }
 
-
-
     #tagline {
         font-size: 2em;
-        margin-top: 2em;
+        margin: 2em 0;
     }
 
     main {
-        margin-top: 15vh !important;
+        margin-top: 18vh !important;
     }
 
     .projects {
