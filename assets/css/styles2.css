@@ -379,7 +379,8 @@ p a {
 }
 
 .modal-image-vertical {
-
+    height: 609px;
+    width: 281px;
 }
 
 /* Media queries */
