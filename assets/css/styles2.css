@@ -155,6 +155,11 @@ h2 {
     font-size: 2em;
 }
 
+h3 {
+    color: #410d63;
+    text-transform: lowercase;
+}
+
 hr {
     margin: 2em 0;
     width: 100%;
@@ -360,9 +365,6 @@ p a {
     font-family: "Open Sans";
 }
 
-.modal-content img {
-    border-left: 4px solid #ccc;
-}
 .modal-close {
     opacity: 1;
     animation-name: fadeout;
@@ -376,11 +378,13 @@ p a {
 .modal-image {
     max-width: 100%;
     border-radius: 2px;
+    border-left: 4px solid #ccc;
 }
 
 .modal-image-vertical {
-    height: 609px;
-    width: 281px;
+    height: 500px;
+    width: 250px;
+    margin-right: 10px;
 }
 
 /* Media queries */
