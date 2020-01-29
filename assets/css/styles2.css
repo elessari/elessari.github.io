@@ -378,6 +378,10 @@ p a {
     border-radius: 2px;
 }
 
+.modal-image-vertical {
+
+}
+
 /* Media queries */
 @media only screen and (min-width: 1400px) {
     header {
@@ -478,6 +482,12 @@ p a {
 
     #si h3, #wow h3, #comp h3, #graphic h3 {
         display: none;
+    }
+
+    .modal-image-vertical {
+        width: 95%;
+        margin: 1em 0;
+        height: 400px;
     }
 }
 
