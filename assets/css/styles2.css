@@ -454,6 +454,10 @@ p a {
         height: 64px;
     }
 
+    .modal-content {
+        width: 95vw;
+    }
+
     #logo {
         padding: 0 1rem;
     }
