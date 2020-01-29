@@ -387,6 +387,10 @@ p a {
     margin-right: 10px;
 }
 
+iframe {
+    display: block;
+    margin: auto;
+}
 /* Media queries */
 @media only screen and (min-width: 1400px) {
     header {
