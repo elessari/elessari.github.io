@@ -473,6 +473,9 @@ iframe {
     #tagline {
         font-size: 2em;
         margin: 2em 0;
+        animation-name: fadein;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
     }
 
     main {
