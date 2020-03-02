@@ -56,8 +56,8 @@ html {
 body {
     font-family: "Poppins";
     font-size: 14px;
-    color: #171738;
-    background-color: #f9f4f5;
+    color: #410d63;
+    background-color: #fbf5ff;
     position: relative;
     top: 0;
     left: 0;
@@ -69,7 +69,6 @@ body {
 
 #blur {
     z-index: -1;
-    background: url('../images/new_marble.jpg');
     background-size: cover;
     background-repeat: repeat-y;
     filter: blur(2px);
@@ -181,27 +180,22 @@ main {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5em 2em;
-    box-shadow: 0 0 32px 8px #f9f4f5 inset;
-    background: rgba(255,255,255,0.4);
     box-sizing: border-box;
     padding: 2rem 2rem 4rem 2rem;
-    border-bottom: 4px solid #410d63;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.35);
-
+    border-left: 4px solid #410d63;
 }
 
 #about {
     width: 100%;
     display: block;
     margin-top: 2em;
+    border-left: 4px solid #410d63;
 }
 
 section {
     height: 224px;
     width: 100%;
-    background: rgba(255,255,255,0.1);
     transition: .5s ease;
-    box-shadow: 0 0 32px 8px #f9f4f5 inset;
 }
 
 #about-s {
