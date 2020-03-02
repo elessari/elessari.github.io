@@ -67,6 +67,8 @@ body {
     text-decoration: none;
 }
 
+
+
 #blur {
     z-index: -1;
     background-size: cover;
@@ -99,8 +101,8 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100vw;
-    z-index: 50;
+    height: 100%;
+    z-index: 4;
 }
 
 header div {
@@ -147,7 +149,7 @@ h1, #floral {
     font-weight: normal;
     font-family: "Open Sans";
     margin: 2em 0;
-    color: #777;
+    color: #554;
 }
 
 h2 {
@@ -314,10 +316,14 @@ footer {
 footer p {
     text-align: center;
     font-weight: bold;
-    font-size: 1em;
+    font-size: .75em;
     color: #410d63;
     width: auto;
     padding: 1em;
+}
+
+p {
+    color: #554;
 }
 
 p a {
