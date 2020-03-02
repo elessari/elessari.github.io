@@ -6,7 +6,7 @@ var speed = 50;
 var text = "Hey, I'm Sierra, a UX Designer.";
 
 function loadHeader() {
-    header = document.getElementById("tagline");
+    header = document.getElementById("tag");
 
     if(i < text.length) {
         header.innerHTML += text.charAt(i);
