@@ -310,13 +310,13 @@ footer {
     margin-bottom: 0;
     position: fixed;
     bottom: 0;
-    margin-left: 2rem;
+    margin-left: 2em;
 }
 
 footer p {
     text-align: center;
     font-weight: bold;
-    font-size: .75em;
+    font-size: 1em;
     color: #410d63;
     width: auto;
     padding: 1em;
