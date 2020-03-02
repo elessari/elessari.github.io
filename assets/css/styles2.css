@@ -406,6 +406,10 @@ scroll-container {
     overflow-y: scroll;
 }
 
+#projects-div, #about-div {
+    display: none;
+}
+
 #projects-div, #tag, #about-div {
     animation-name: fadein;
     animation-duration: 1s;
