@@ -228,6 +228,10 @@ section {
     padding: 2em 0;
 }
 
+#projects, #about {
+    scroll-behavior: smooth;
+}
+
 #projects:hover .overlay {
     opacity: 1;
 }
@@ -382,6 +386,12 @@ iframe {
     display: block;
     margin: auto;
 }
+
+scroll-container {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
 /* Media queries */
 @media only screen and (min-width: 1400px) {
     header {
@@ -417,6 +427,7 @@ iframe {
 
     main {
         width: 95vw;
+        
     }
 
     .projects {
