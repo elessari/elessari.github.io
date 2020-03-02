@@ -406,6 +406,12 @@ scroll-container {
     overflow-y: scroll;
 }
 
+figcaption {
+    margin: -1em 1em 1em 1em;
+    font-style: italic;
+    font-size: 12px;
+}
+
 #projects-div p {
     text-align: right;
     padding-right: 2rem;
