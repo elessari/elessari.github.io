@@ -412,6 +412,10 @@ scroll-container {
     padding-right: 2rem;
 }
 
+#projects-div section p {
+    text-align: left;
+}
+
 #projects-div, #about-div {
     display: none;
 }
