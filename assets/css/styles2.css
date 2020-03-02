@@ -406,6 +406,10 @@ scroll-container {
     overflow-y: scroll;
 }
 
+#projects-div p {
+    margin: 1em 0;
+}
+
 #projects-div, #about-div {
     display: none;
 }
