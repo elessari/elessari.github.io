@@ -45,19 +45,13 @@
 
 
   <meta name="theme-color" content="#fafafa">
-  <script src="assets/js/main.js"></script>
-
-  <!-- jQuery main library
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
-
-	jQueryUI library
-	<script src="assets/js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>
-
+	<script src="../assets/js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
 	        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
 	        crossorigin="anonymous">
 	</script>
-  <script type="text/javascript" src="assets/js/smooth-scroll-to-anchor/jquery.smoothscroll.min.js"></script>-->
+  <script type="text/javascript" src="../assets/js/smooth-scroll-to-anchor/jquery.smoothscroll.min.js"></script>
 </head>
 <body>
   <div id="blur2"></div>
@@ -105,5 +99,29 @@
   <footer>
     <p>&copy; 2020 Sierra Skorupski</p>
   </footer>
+  <script>
+    $(function() {
+      $('a[href*="#problem"]').smoothscroll({
+        duration: 600,
+        easing: 'swing',
+        offset: 0
+      });
+      $('a[href*="#process"]').smoothscroll({
+        duration: 600,
+        easing: 'swing',
+        offset: 0
+      });
+      $('a[href*="#solutions"]').smoothscroll({
+        duration: 600,
+        easing: 'swing',
+        offset: 0
+      });
+      $('a[href*="#considerations"]').smoothscroll({
+        duration: 600,
+        easing: 'swing',
+        offset: 0
+      });
+    });
+  </script>
 </body>
 </html>
