@@ -81,18 +81,18 @@ body {
 
 #logo {
     color: #410d63;
+    text-align: left;
     font-size: 3em;
     transition: .5s ease;
-    float: left;
     animation-name: fadein;
     animation-duration: 2s;
     animation-iteration-count: 1;
     text-decoration: none;
-    padding: 2rem;
+    padding: 0 !important;
 }
 
 #logo:hover {
-    font-size: 3.5em;
+    left: 10px;
     transition: .5s ease;
 }
 
@@ -124,7 +124,7 @@ header div {
     max-width: 800px;
     width: auto;
     margin: 0 auto;
-    padding: 20rem 2rem;
+    padding: 18rem 2rem;
     box-sizing: border-box;
     text-align: center;
 }
@@ -142,9 +142,12 @@ h1, #floral {
 #floral {
     opacity: 0;
     transition: opacity 2s ease;
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: #410d63;
     font-weight: normal;
+    font-family: "Open Sans";
+    margin: 2em 0;
+    color: #777;
 }
 
 h2 {
@@ -170,8 +173,9 @@ hr {
 main {
     display: block;
     max-width: 60rem;
-    margin-top: 20vh !important;
+    margin-top: 10vh !important;
     margin: auto;
+    margin-bottom: 6vh;
 }
 
 .projects {
@@ -263,10 +267,8 @@ section {
 }
 
 nav {
-    float: right;
-    right: 0;
     display: block;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 nav ul {
@@ -276,8 +278,7 @@ nav ul {
 
 nav ul li {
     height: 100%;
-    padding-top: 1em;
-    text-align: right;
+    padding: 1em;
 }
 
 nav ul li a {
@@ -288,7 +289,7 @@ nav ul li a {
     height: 100%;
     margin: 1em .5em;
     color: #410d63;
-    padding: 1em;
+    padding: em;
     position: relative;
     left: 0;
     transition: .3s ease;
@@ -296,15 +297,18 @@ nav ul li a {
 
 nav ul li a:active, nav ul li a:hover {
     cursor: pointer;
-    left: -20px;
+    left: 10px;
     transition: .3s ease;
 }
 
 footer {
     display: block;
     max-width: 200px;
-    margin: 2em auto;
+    margin: 0 auto;
     margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+    margin-left: 2rem;
 }
 
 footer p {
@@ -390,6 +394,15 @@ iframe {
 scroll-container {
     scroll-behavior: smooth;
     overflow-y: scroll;
+}
+
+#projects-div, #tag, #about-div {
+    animation-name: fadein;
+    animation-duration: 1s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    -moz-animation-name: fadein;
+    -moz-animation-duration: 1s;
 }
 
 /* Media queries */
