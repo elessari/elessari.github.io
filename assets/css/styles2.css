@@ -143,7 +143,7 @@ h1, #floral {
 
 #floral {
     opacity: 0;
-    transition: opacity 2s ease;
+    transition: opacity 1.5s ease;
     font-size: 1.5em;
     color: #410d63;
     font-weight: normal;
@@ -191,6 +191,10 @@ main {
     border-left: 4px solid #410d63;
 }
 
+.projects section
+{
+    box-shadow: 2px 2px 2px #ddd;
+}
 #about {
     width: 100%;
     display: block;
@@ -264,7 +268,7 @@ section {
 }
 
 #si-bg:hover, #wow-bg:hover, #comp-bg:hover, #graphic-bg:hover {
-    opacity: 0.25;
+    opacity: 0.15;
     transition: .5s ease;
 }
 
