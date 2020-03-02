@@ -189,7 +189,6 @@ main {
     width: 100%;
     display: block;
     margin-top: 2em;
-    border-left: 4px solid #410d63;
 }
 
 section {
@@ -200,9 +199,7 @@ section {
 
 #about-s {
     height: auto;
-    border-bottom: 4px solid #410d63;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.35);
-    background: rgba(255,255,255,0.4);
+    border-left: 4px solid #410d63;
 }
 
 #about-p {
