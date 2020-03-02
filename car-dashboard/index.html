@@ -1,6 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    html {
+      overflow-x: hidden;
+    }
+    #main {
+      max-width: 50rem !important;
+      position: inherit;
+      top: 6vh;
+      display: block;
+      margin: auto;
+    }
+
+    h1 {
+      padding-top: 8vh;
+    }
+    #main div {
+      border-left: 4px solid #410d63;
+      height: auto;
+      width: 45rem;
+    }
+
+    div p, div img {
+      padding: 1em;
+      font-family: "Open Sans";
+    }
+
+    #logo2 {
+      color: white;
+      font-size: 3em;
+      transition: .5s ease;
+      float: left;
+      animation-name: fadein;
+      animation-duration: 2s;
+      animation-iteration-count: 1;
+      text-decoration: none;
+      padding: 0 1.5rem;
+    }
+    
+    #logo2:hover {
+      font-size: 3.5em;
+      transition: .5s ease;
+    }
+
+    #blur2 {
+      z-index: 1;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-left: 18vw solid #410d63; 
+    }
+
+  </style>
   <meta charset="utf-8">
   <title>Sierra Skorupski | UX Designer</title>
   <meta name="description" content="">
@@ -29,11 +81,12 @@
 	</script>
   <script type="text/javascript" src="assets/js/smooth-scroll-to-anchor/jquery.smoothscroll.min.js"></script>-->
 </head>
-<body onload="loadHeader();">
-  <div id="blur"></div>
+<body>
+  <div id="blur2"></div>
+
   <header>
     <div>
-      <a href="#" id="logo">&#9753;</a>
+      <a href="#" id="logo2">&#9753;</a>s
       <nav>
         <ul>
           <li><a href="../">Home</a></li>
@@ -44,116 +97,29 @@
       </nav>
   </div>
   </header>
-  <div id="tag"><h1 id="tagline"></h1><h1 id="floral"></h1></div>
-  <main>
-    <h2 id="projects">Projects</h2>
-    <div class="projects">
-      <section id="si">
-        <h3>The SI @ RIT App</h3>
-        <a href="#projects">
-          <img id="si-bg" src="assets/images/si/thumbnail-si.png">
-        </a>
-        <p>A fully-fleshed prototyping project, showing the process from ideation to usability testing of lo-fi and hi-fi prototypes.</p>
-      </section>
-      <section id="wow">
-        <h3>Car Dashboard UI</h3>
-        <a href="#projects">
-          <img id="wow-bg" src="assets/images/car-dash/thumbnail-car.png">
-        </a>
-        <p>Design sprint of a reimagined car dashboard interface, with survey data utilized for design decisions.</p>
-      </section>
-      <section id="graphic">
-          <h3>Teller app</h3>
-          <a href="#projects">
-            <img id="graphic-bg" src="assets/images/teller/thumbnail.png">
-          </a>
-          <p>App prototype involving contextual inquiry and development of personas in the process.</p>
-      </section>
-      <section id="comp">
-        <h3>Design Sprints</h3>
-        <a href="#projects">
-          <img id="comp-bg" src="assets/images/book_pen.jpg">
-        </a>
-        <p>A smaller collection of sketches, designs, and ideation.</p>
-    </section>
-    </div>
-    <h2 id="about">About</h2>
+  <div id="main">
+    <h1>Supplemental Instruction @ RIT</h1>
+    <br>
+    <h2>Problem Statement</h2>
     <div>
-      <section id="about-s">
-        <p id="about-p">
-          <img src="assets/images/myProfile.jpg" style="height: 15rem;float:left;margin: 0 1em 1em 0;">
-          I'm a 5th-year Human-Centered Computing student at Rochester Institute of Technology, graduating in May 2020 and currently searching for full-time opportunities.<br><br>
-          My drive for UX was borne from a young age, as growing up I observed relatives and friends struggle to use technology or experience frustrating roadblocks. My goal has always been to make technology friendly and easy to use for everyone, taking every user into consideration.<br><br>
-          Outside of UX design and development, I love to experience as many forms of art as I can. I create my own calligraphy and always find myself engrossed in books or in games with rich stories. I believe that sharing in artistic expressions of the human experience is vital to understanding and empathizing with users of every demographic, and creating a truly personalized user experience.<br><br>
-          To get in touch, you can find me on <a href="www.linkedin.com/in/sierra-skorupski-8b6252139" target="_blank">LinkedIn</a> or contact me by <a href="mailto:shs6196@rit.edu" target="_blank">email</a>.
-          <br><span style="font-family:'Cedarville Cursive';font-size: 1.5em;">- Sierra</span>
-        </p>
-      </section>
+      <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="../assets/images/si/thumbnail-si.png">
     </div>
-    <script type="text/javascript">
-      var modal = document.getElementById('myModal');
-      var modal2 = document.getElementById('myModal2');
-      var modal3 = document.getElementById('myModal3');
-      var modal4 = document.getElementById('myModal4');
-
-      function makeModal() {
-        modal.classList.remove('modal-close');
-        modal.style.display = "block";
-      }
-      function makeModal2() {
-        modal2.classList.remove('modal-close');
-        modal2.style.display = "block";
-      }
-
-      function makeModal3() {
-        modal3.classList.remove('modal-close');
-        modal3.style.display = "block";
-      }
-
-      function makeModal4() {
-        modal4.classList.remove('modal-close');
-        modal4.style.display = "block";
-      }
-
-      window.onclick = function(event) {
-        if(event.target == modal) {
-          modal.classList.add('modal-close');
-          modal.style.display = "none"; 
-        }
-        else if(event.target == modal2) {
-          modal2.classList.add('modal-close');
-          modal2.style.display = "none"; 
-        }
-        else if(event.target == modal3) {
-          modal3.classList.add('modal-close');
-          modal3.style.display = "none"; 
-        }
-        else if(event.target == modal4) {
-          modal4.classList.add('modal-close');
-          modal4.style.display = "none"; 
-        }
-      }
-    </script>
-    <!-- <script>
-      $(function() {
-	      $('a[href*="#projects"]').smoothscroll({
-          duration: 600,
-          easing: 'swing',
-          offset: 0
-        });
-        $('a[href*="#"]').smoothscroll({
-          duration: 600,
-          easing: 'swing',
-          offset: 0
-        });
-        $('a[href*="#about"]').smoothscroll({
-          duration: 600,
-          easing: 'swing',
-          offset: 0
-        });
-	    });
-    </script> -->
-  </main>
+    <br>
+    <h2>Process</h2>
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <br>
+    <h2>Solutions</h2>
+    <div>      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <br>
+    <h2>Considerations</h2>
+    <div>      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    
+  </div>
   <footer>
     <p>&copy; 2020 Sierra Skorupski</p>
   </footer>
