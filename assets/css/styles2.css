@@ -406,6 +406,10 @@ scroll-container {
     overflow-y: scroll;
 }
 
+figure {
+    display: inline-block;
+}
+
 figcaption {
     margin: -1em 1em 1em 1em;
     font-style: italic;
