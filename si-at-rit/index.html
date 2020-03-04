@@ -67,7 +67,7 @@
           <li><a href="#process">Process</a></li>
           <li><a href="#solutions">Solutions</a></li>
           <li><a href="#considerations">Considerations</a></li>
-          <li><a href="../resume/Skorupski_Resume_02202020.pdf" target="_blank">Resumé</a></li>
+          <li><a href="../resume/Skorupski_Resume_03022020.pdf" target="_blank">Resumé</a></li>
           <li><a href="mailto:shs6196@rit.edu" target="_blank">Contact</a></li>
         </ul>
       </nav>
@@ -103,6 +103,11 @@
   </footer>
   <script>
     $(function() {
+      $('a[href*="#"]').smoothscroll({
+        duration: 600,
+        easing: 'swing',
+        offset: 0
+      });
       $('a[href*="#problem"]').smoothscroll({
         duration: 600,
         easing: 'swing',
