@@ -467,7 +467,7 @@ figcaption {
         max-width: 90vw;
         font-size: 16px;
         text-align: center;
-        padding: 0;
+        padding: 16rem 0 0 0;
     }
 
     h1 {
@@ -475,8 +475,25 @@ figcaption {
     }
 
     main {
-        width: 95vw;
-        
+        width: 90vw;
+        padding-top: .5vh;
+    }
+    
+    header {
+        height: auto;
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 2em;
+        background: rgba(255,255,255,0.25);
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    nav ul li {
+        display: inline;
     }
 
     .projects {
@@ -539,7 +556,7 @@ figcaption {
     }
 
     main {
-        margin-top: 20vh !important;
+        margin-top: 6vh !important;
     }
 
     .projects {
