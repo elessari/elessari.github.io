@@ -144,12 +144,30 @@ h1, #floral {
 #floral {
     opacity: 0;
     transition: opacity 1.5s ease;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #410d63;
     font-weight: normal;
     font-family: "Open Sans";
     margin: 2em 0;
     color: #554;
+}
+
+#recent_work {
+    border: none;
+    padding: 1em 2em;
+    background: #410d63;
+    color: white;
+    font-family: "Poppins";
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+#recent_work:hover {
+ background: #f7edf0;
+ color: black;
+ transition: .5s ease;
 }
 
 h2 {
@@ -441,7 +459,7 @@ figcaption {
 /* Media queries */
 @media only screen and (min-width: 1400px) {
     header {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     nav ul li {
         margin: 1rem 0;
@@ -452,10 +470,10 @@ figcaption {
 
     }
     h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     #floral {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .modal-content {
