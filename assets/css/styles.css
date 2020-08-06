@@ -1,260 +1,230 @@
-/*
- * Main color: #410d63;
- * #F5E9DC
- * Bubba was here
-*/
+/* Keyframes */
+@-webkit-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeout {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes fadeout {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes fadeout {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes fadeout {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    min-height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
-body {
-    font-family: "Montserrat";
-    font-size: 16px;
-    color: #303030;
-    background: url("../images/marble_tile.jpg");
-    background-repeat: x;
-    background-size: initial;
-}
-
-#tagline {
-    font-family: "Great Vibes", cursive;
-    letter-spacing: 4px;
-    font-size: 3em;
-    position: absolute;
-    text-transform: none;
-    top: .5em;
-    left: 7.5em;
-    color: #410d63;
-    margin: 0;
-    text-shadow: 4px 4px 1px #ddd;
-}
-
-@-webkit-keyframes fadein {
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  @-moz-keyframes fadein {
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  @-o-keyframes fadein {
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  @keyframes fadein {
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-  }
-
-.quote {
-    font-size: 1.5em;
-    color: #410d63;
-    font-family: "Great Vibes", cursive;
-    font-weight: bold;
+  height: 100%;
 }
 
 header {
-    height: 100vh;
-    width: 20rem;
-    margin: auto;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background: #410d63;
-    color: white;
+  position: relative;
+  top: 0;
+  max-width: 50rem;
+  display: block;
+  margin: 0 auto;
+  font-size: 4em;
+  font-weight: 600;
+  height: 96px;
 }
 
-#logo {
-    background: url("../images/floral_icon.svg");
-    transition: 1s ease;
-    padding: 1em;
-    float: left;
-    width: 3em;
+nav {
+  margin-top: 32px;
+  float: right;
 }
 
-#logo:hover {
-    width: 4em;
-    transition: 1s ease;
+nav ul {
+  list-style-type: none;
 }
 
-h1 {
-    font-family: "Montserrat";
-    font-weight: normal;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    margin: 20px 0 10px 20px;
-
+nav ul li {
+  display: inline;
 }
 
-h2 {
-    font-family: "Montserrat";
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+nav ul li a {
+  padding: 24px;
+  text-decoration: none;
+  color: #413b44;
+  transition: .5s ease;
+  text-transform: lowercase;
 }
 
-#me {
-    border: 4px solid #410d63;
-    display: block;
-    width: 7em;
-    margin: 1em auto;
+nav ul li a:last-child {
+  padding-right: 0;
 }
 
-hr {
-    height: 2px;
-    border: none;
-    background: white;
+nav ul li a.active {
+  color: #61367d;
 }
 
-header > p {
-    text-align: center;
-    margin: .5em;
-    font-family: "Montserrat";
+nav ul li a:hover {
+  color: #61367d;
+  transition: .5s ease;
 }
 
-header > h3 {
-    font-family: "Montserrat";
-    text-transform: uppercase;
-    margin: 10px 20px;
+#new-logo {
+  margin-top: 32px;
+  float: left;
+  transition: .5s ease;
 }
 
-#my-links {
-    height: 40px;
-    max-height: 40px;
+#new-logo:hover {
+  margin-left: 8px;
+  transition: .5s ease;
 }
 
-.links {
-    font-size: 1.5em;
-    text-align: center;
-    text-decoration: none;
-    transition: 1s ease;
-    padding: 10px;
-}
-
-#linkedin {
-
-}
-
-.links:hover {
-    font-size: 2em;
-    transition: 1s ease;
-}
-
-main h3 {
-    font-family: "Montserrat";
-    text-transform: uppercase;
-    color: #410d63;
-    font-size: 1.75em;
+body {
+  background: #F6F1F9;
+  font-size: 8px;
+  font-family: "Josefin Slab";
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 
 main {
-    display: grid;
-    width: 80em;
-    margin: auto;
-    margin-left: 2em;
-    margin-top: 10em;
-    margin-bottom: 2em;
+  padding-top: 32px;
+  max-width: 50rem;
+  display: block;
+  margin: 1em auto;
 }
 
-#intro {
-    height: 256px;
+#projects-content {
+  opacity: 0;
+  transition: opacity 1s ease;
+  font-family: "Josefin Sans";
+  font-size: 3em;
+  font-weight: 300;
+  color: #413b44;
+  text-transform: none;
+  margin-top: 64px;
 }
 
-section {
-    box-shadow: 2px 2px 4px #888;
-    background: #fff;
-    padding: 20px;
-    padding-left: 20em;
-    border-top: 4px solid #410d63;
-    margin: 1em;
+#about-content {
+  display: none;
 }
 
-.project-span {
-    text-align: center;
-    width: auto;
-    display: block;
-    margin: auto;
-    font-weight: bold;
-    font-size: 1.2em;
+#projects-content p {
+  margin-bottom: 8px;
 }
 
-
-#intro > p {
-    margin-top: 30px;
-    margin-bottom: 30px;
+#project-divs {
+  display: grid;
+  height: 320px;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 16px;
 }
 
-.title {
-    color: #410d63;
-    font-weight: bold;
-    font-size: 18px;
-    animation-name: fadein;
-    -webkit-animation: fadein;
-    -moz-animation: fadein;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
+#project1, #project2, #project3, #project4 {
+  background: #61367d;
+  transition: .3s ease;
 }
 
-#rit-span {
+#project1:hover, #project2:hover, #project3:hover, #project4:hover {
+  padding: 8px;
+  transition: .3s ease;
+  cursor: pointer;
 }
 
-#ux-span {}
-
-#club-span {}
-
-#title-span {}
-
-#prof-span {}
-
-
-ul {
-    list-style-type: none;
-    font-family: "Montserrat";
+#construction {
+  margin: 32px 0;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2.5em;
+  color: #413b44;
 }
 
-ul li {
-    margin-left: 30px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+#tagline, #endText {
+  color: #413B44;
 }
 
-#projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px;
-    grid-gap: 1em;
+#colorText {
+  color: #61367d;
 }
 
-#projects img {
-    display: block;
-    margin: auto;
-}
-
-section > p {
-    margin: 10px;
+#tagline, #colorText, #endText {
+  display: inline;
+  font-size: 45px;
+  text-transform: lowercase;
+  font-weight: 500;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 20rem;
-    font-size: .75em;
+  width: 100%;
+  display: block;
+  margin: 2em auto;
+  position: absolute;
+  bottom: 0;
+  min-height: 76px;
+  font-family: "Josefin Sans";
 }
 
-footer p {
-    text-align: center;
-    margin: 1em;
+#copyright {
+  text-align: center;
+  font-size: 2em;
+  color: #61367d;
+  margin: 1em 1em 0 1em;
 }
 
-#si, #wow, #comp {
-    height: 10em;
+#footerButtons {
+  width: 128px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 12px;
+}
+
+#figma, #linkedin, #email {
+  border: 2px solid #61367d;
+  border-radius: 100%;
+  height: 32px;
+  width: 32px;
+}
+
+#figma img, #linkedin img, #email img {
+  display: block;
+  margin: auto;
+}
+
+#figma img {
+  margin-top: 8px;
+}
+
+#linkedin img {
+  margin-top: 9px;
+}
+
+#email img {
+  margin-top: 10px;
+}
+
+#figma:hover, #linkedin:hover, #email:hover {
+  cursor: pointer;
+  border: 2px dashed #61367d;
 }

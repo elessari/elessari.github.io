@@ -1,0 +1,260 @@
+/*
+ * Main color: #410d63;
+ * #F5E9DC
+ * Bubba was here
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #303030;
+    background: url("../images/marble_tile.jpg");
+    background-repeat: x;
+    background-size: initial;
+}
+
+#tagline {
+    font-family: "Great Vibes", cursive;
+    letter-spacing: 4px;
+    font-size: 3em;
+    position: absolute;
+    text-transform: none;
+    top: .5em;
+    left: 7.5em;
+    color: #410d63;
+    margin: 0;
+    text-shadow: 4px 4px 1px #ddd;
+}
+
+@-webkit-keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-moz-keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-o-keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.quote {
+    font-size: 1.5em;
+    color: #410d63;
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
+}
+
+header {
+    height: 100vh;
+    width: 20rem;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #410d63;
+    color: white;
+}
+
+#logo {
+    background: url("../images/floral_icon.svg");
+    transition: 1s ease;
+    padding: 1em;
+    float: left;
+    width: 3em;
+}
+
+#logo:hover {
+    width: 4em;
+    transition: 1s ease;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin: 20px 0 10px 20px;
+
+}
+
+h2 {
+    font-family: "Montserrat";
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#me {
+    border: 4px solid #410d63;
+    display: block;
+    width: 7em;
+    margin: 1em auto;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background: white;
+}
+
+header > p {
+    text-align: center;
+    margin: .5em;
+    font-family: "Montserrat";
+}
+
+header > h3 {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    margin: 10px 20px;
+}
+
+#my-links {
+    height: 40px;
+    max-height: 40px;
+}
+
+.links {
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s ease;
+    padding: 10px;
+}
+
+#linkedin {
+
+}
+
+.links:hover {
+    font-size: 2em;
+    transition: 1s ease;
+}
+
+main h3 {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #410d63;
+    font-size: 1.75em;
+}
+
+main {
+    display: grid;
+    width: 80em;
+    margin: auto;
+    margin-left: 2em;
+    margin-top: 10em;
+    margin-bottom: 2em;
+}
+
+#intro {
+    height: 256px;
+}
+
+section {
+    box-shadow: 2px 2px 4px #888;
+    background: #fff;
+    padding: 20px;
+    padding-left: 20em;
+    border-top: 4px solid #410d63;
+    margin: 1em;
+}
+
+.project-span {
+    text-align: center;
+    width: auto;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+#intro > p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #410d63;
+    font-weight: bold;
+    font-size: 18px;
+    animation-name: fadein;
+    -webkit-animation: fadein;
+    -moz-animation: fadein;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+#rit-span {
+}
+
+#ux-span {}
+
+#club-span {}
+
+#title-span {}
+
+#prof-span {}
+
+
+ul {
+    list-style-type: none;
+    font-family: "Montserrat";
+}
+
+ul li {
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    grid-gap: 1em;
+}
+
+#projects img {
+    display: block;
+    margin: auto;
+}
+
+section > p {
+    margin: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 20rem;
+    font-size: .75em;
+}
+
+footer p {
+    text-align: center;
+    margin: 1em;
+}
+
+#si, #wow, #comp {
+    height: 10em;
+}
