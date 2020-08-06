@@ -52,3 +52,22 @@ function loadContent() {
   var projects = document.getElementById("projects-content");
   projects.style.opacity = 1;
 }
+
+function changeDiv() {
+  var projects = document.getElementById("projects-link");
+  var about = document.getElementById("about-link");
+  console.log(event.target);
+
+  if(event.target == projects) {
+      document.getElementById("projects-div").style.display = "block";
+      document.getElementById("about-div").style.display = "none";
+  }
+  else if(event.target == about) {
+      document.getElementById("projects-div").style.display = "none";
+      document.getElementById("about-div").style.display = "block";
+  }
+  else {
+      document.getElementById("projects-div").style.display = "none";
+      document.getElementById("about-div").style.display = "none";
+  }
+}

@@ -154,9 +154,20 @@ main {
 #construction {
   margin: 32px 0;
   font-family: "Open Sans";
-  font-weight: 300;
-  font-size: 1.5em;
+  font-weight: 600;
+  font-size: 1.75em;
   color: #413b44;
+}
+
+#construction a {
+  text-decoration: none;
+  color: #61367d;
+  transition: .5s ease;
+}
+
+#construction a:hover {
+  color: #413b44;
+  transition: .5s ease;
 }
 
 #tagline, #endText {
