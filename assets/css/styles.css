@@ -154,23 +154,24 @@ main {
 #project-divs {
   display: grid;
   height: 320px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
 }
 
 #project1, #project2, #project3, #project4 {
-  background: #61367d;
-  transition: .3s ease;
+  display: grid;
+  font-size: 14px;
+  font-weight: normal;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 8px;
 }
 
 #project1:hover, #project2:hover, #project3:hover, #project4:hover {
-  padding: 8px;
-  transition: .3s ease;
   cursor: pointer;
 }
 
 #construction {
-  margin: 32px 0;
+  margin: 48px 0;
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 1.75em;
