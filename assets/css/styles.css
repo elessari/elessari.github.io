@@ -115,12 +115,12 @@ main {
 }
 
 #projects-content, #about-content {
-      animation-name: fadein;
-    animation-duration: 2s;
-    -webkit-animation-name: fadein;
-    -webkit-animation-duration: 2s;
-    -moz-animation-name: fadein;
-    -moz-animation-duration: 2s;
+  animation-name: fadein;
+  animation-duration: 2s;
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 2s;
+  -moz-animation-name: fadein;
+  -moz-animation-duration: 2s;
 }
 
 #projects-content {
@@ -172,10 +172,16 @@ main {
 
 #construction {
   margin-top: 32px;
-  font-family: "Open Sans";
+  font-family: "Josefin Slab";
   font-weight: 600;
-  font-size: 1.75em;
+  font-size: 2em;
   color: #413b44;
+  animation-name: fadein;
+  animation-duration: 1s;
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 1s;
+  -moz-animation-name: fadein;
+  -moz-animation-duration: 1s;
 }
 
 #construction a {
