@@ -61,13 +61,19 @@ function changeDiv() {
   if(event.target == projects) {
       document.getElementById("projects-content").style.display = "block";
       document.getElementById("about-content").style.display = "none";
+      projects.classList.add("active");
+      about.classList.remove("active");
   }
   else if(event.target == about) {
       document.getElementById("projects-content").style.display = "none";
       document.getElementById("about-content").style.display = "block";
+      about.classList.add("active");
+      projects.classList.remove("active");
   }
   else {
       document.getElementById("projects-content").style.display = "block";
       document.getElementById("about-content").style.display = "none";
+      projects.classList.add("active");
+      about.classList.remove("active");
   }
 }

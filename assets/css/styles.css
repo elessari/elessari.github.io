@@ -136,6 +136,15 @@ main {
 
 #about-content {
   display: none;
+  margin-top: 64px;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+#myPic {
+  max-width: 12em;
+  float: left;
+  margin: 0 1em 1em 0;
 }
 
 #projects-content p {
