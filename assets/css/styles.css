@@ -219,6 +219,7 @@ footer {
   bottom: 0;
   min-height: 76px;
   font-family: "Josefin Slab";
+  font-weight: 600;
 }
 
 #copyright {
