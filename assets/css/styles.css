@@ -139,6 +139,7 @@ main {
   margin-top: 64px;
   font-family: "Open Sans";
   font-size: 14px;
+  color: #413b44;
 }
 
 #myPic {
@@ -171,7 +172,7 @@ main {
 }
 
 #construction {
-  margin-top: 32px;
+  margin: 32px 0;
   font-family: "Josefin Slab";
   font-weight: 600;
   font-size: 2em;
