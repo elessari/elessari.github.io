@@ -59,15 +59,15 @@ function changeDiv() {
   console.log(event.target);
 
   if(event.target == projects) {
-      document.getElementById("projects-div").style.display = "block";
-      document.getElementById("about-div").style.display = "none";
+      document.getElementById("projects-content").style.display = "block";
+      document.getElementById("about-content").style.display = "none";
   }
   else if(event.target == about) {
-      document.getElementById("projects-div").style.display = "none";
-      document.getElementById("about-div").style.display = "block";
+      document.getElementById("projects-content").style.display = "none";
+      document.getElementById("about-content").style.display = "block";
   }
   else {
-      document.getElementById("projects-div").style.display = "none";
-      document.getElementById("about-div").style.display = "none";
+      document.getElementById("projects-content").style.display = "block";
+      document.getElementById("about-content").style.display = "none";
   }
 }

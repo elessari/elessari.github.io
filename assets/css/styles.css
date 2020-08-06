@@ -114,9 +114,18 @@ main {
   margin: 1em auto;
 }
 
+#projects-content, #about-content {
+      animation-name: fadein;
+    animation-duration: 2s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 2s;
+    -moz-animation-name: fadein;
+    -moz-animation-duration: 2s;
+}
+
 #projects-content {
-  opacity: 0;
-  transition: opacity 1s ease;
+  /* opacity: 0;
+  transition: opacity 1s ease; */
   font-family: "Open Sans";
   font-size: 2.5em;
   font-weight: 600;
