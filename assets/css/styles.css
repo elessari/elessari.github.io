@@ -118,7 +118,7 @@ main {
   opacity: 0;
   transition: opacity 1s ease;
   font-family: "Open Sans";
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 600;
   color: #413b44;
   text-transform: none;
@@ -153,10 +153,9 @@ main {
 
 #construction {
   margin: 32px 0;
-  font-family: "Josefin Sans";
+  font-family: "Open Sans";
   font-weight: 300;
-  font-style: italic;
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: #413b44;
 }
 
@@ -182,7 +181,7 @@ footer {
   position: absolute;
   bottom: 0;
   min-height: 76px;
-  font-family: "Open Sans";
+  font-family: "Josefin Slab";
 }
 
 #copyright {
