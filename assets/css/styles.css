@@ -159,6 +159,20 @@ main {
   grid-gap: 16px;
 }
 
+#project-divs a {
+  text-decoration: none;
+  font-family: "Josefin Slab";
+  font-weight: bold;
+  color: #61367d;
+  transition: .5s ease;
+  text-transform: lowercase;
+}
+
+#project-divs a:hover {
+  color: #413b44;
+  transition: .5s ease;
+}
+
 #project1, #project2, #project3, #project4 {
   display: grid;
   font-size: 14px;
@@ -167,7 +181,7 @@ main {
   grid-gap: 8px;
 }
 
-#project1:hover, #project2:hover, #project3:hover, #project4:hover {
+#proj1-thumbnail:hover, #proj2-thumbnail:hover, #proj3-thumbnail:hover, #proj4-thumbnail:hover {
   cursor: pointer;
 }
 
