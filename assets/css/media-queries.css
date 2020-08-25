@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) {
+  header {
+    margin: 0 64px;
+  }
+
+  main {
+    margin: 32px 64px;
+  }
+
+  #project1, #project2, #project3, #project4 {
+    display: block;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  header {
+    font-size: 2.5em;
+    margin: 0 32px;
+  }
+
+  #tagline, #colorText, #endText {
+    font-size: 4em;
+  }
+
+  main {
+    margin: 16px 32px;
+    min-height: 896px;
+  }
+
+  #proj-intro {
+    font-size: 16px;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+
+  #project-divs {
+    display: grid;
+    height: 320px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  }
+}
