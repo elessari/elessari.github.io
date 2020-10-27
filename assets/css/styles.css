@@ -182,7 +182,7 @@ main {
 }
 
 #proj1-thumbnail:hover, #proj2-thumbnail:hover, #proj3-thumbnail:hover, #proj4-thumbnail:hover {
-  cursor: default;
+  cursor: pointer;
 }
 
 #construction {
