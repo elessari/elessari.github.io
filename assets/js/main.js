@@ -49,7 +49,7 @@ function finishHeader() {
 }
 
 function loadContent() {
-  var projects = document.getElementById("projects-content");
+  var projects = document.getElementById("content");
   projects.style.opacity = 1;
 }
 
