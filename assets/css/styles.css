@@ -134,6 +134,17 @@ main {
   color: #652E8A; 
 }
 
+#text-content strong a {
+  text-decoration: none;
+  color: #652E8A;
+  transition: .5s ease;
+}
+
+#text-content strong a:hover {
+  text-decoration: underline;
+  transition: .5s ease;
+}
+
 #colorText {
   color: #652E8A; 
 }
