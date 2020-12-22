@@ -15,32 +15,46 @@
 
 @media only screen and (max-width: 512px) {
   header {
-    font-size: 2.5em;
+    height: 96px;
     margin: 0 32px;
   }
 
   #tagline, #colorText, #endText {
-    font-size: 4em;
+    font-size: 2em;
   }
 
   main {
     margin: 16px 32px;
-    min-height: 896px;
+    min-height: 384px;
   }
 
-  #proj-intro {
-    font-size: 16px;
+  #content {
+    display: block;
   }
 
-  footer {
-    position: relative;
-    bottom: 0;
+  nav {
+    position: absolute;
+    top: 32px;
   }
 
-  #project-divs {
-    display: grid;
-    height: 320px;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
+  nav ul li {
+    display: inline;
+    font-size: .5em;
+    padding-left: 0;
+    padding-right: 18px;
+  }
+
+  #copyright {
+    display: none;
+  }
+
+  #bunnies img {
+    width: 3em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #bunnies {
+    display: none;
   }
 }
