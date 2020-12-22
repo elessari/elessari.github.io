@@ -40,6 +40,7 @@
 
 html {
   height: 100%;
+  overflow-x: hidden;
 }
 
 header {
@@ -50,232 +51,102 @@ header {
   margin: 0 auto;
   font-size: 4em;
   font-weight: 600;
-  height: 96px;
+  height: 160px;
 }
 
 nav {
-  margin-top: 32px;
-  float: right;
+
 }
 
 nav ul {
   list-style-type: none;
+  font-family: "Josefin Slab";
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
 }
 
 nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  padding: 24px;
-  text-decoration: none;
-  color: #413b44;
-  transition: .5s ease;
-  text-transform: lowercase;
-}
-
-nav ul li a:last-child {
+  padding: 18px;
   padding-right: 0;
 }
 
+nav ul li a {
+  
+  text-decoration: none;
+  color: #1A181D;
+  transition: .3s ease;
+  text-transform: lowercase;
+}
+
 nav ul li a.active {
-  color: #61367d;
+  color: #652E8A;
 }
 
 nav ul li a:hover {
-  color: #61367d;
-  transition: .5s ease;
-}
-
-#new-logo {
-  margin-top: 32px;
-  float: left;
-  transition: .5s ease;
-}
-
-#new-logo:hover {
-  margin-left: 8px;
-  transition: .5s ease;
+  color: #652E8A;
+  transition: .3s ease;
 }
 
 body {
-  background: #F6F1F9;
-  font-size: 8px;
-  font-family: "Josefin Slab";
+  background: #FDFBFE;
+  font-size: 16px;
+  font-family: "Nunito";
   animation-name: fadein;
   animation-duration: 1s;
   animation-iteration-count: 1;
 }
 
 main {
-  padding-top: 32px;
   max-width: 50rem;
   display: block;
   margin: 1em auto;
 }
 
-#projects-content, #about-content {
+#content {
   animation-name: fadein;
   animation-duration: 2s;
   -webkit-animation-name: fadein;
   -webkit-animation-duration: 2s;
   -moz-animation-name: fadein;
   -moz-animation-duration: 2s;
-}
-
-#projects-content {
-  /* opacity: 0;
-  transition: opacity 1s ease; */
-  font-family: "Open Sans";
-  font-size: 2.5em;
-  font-weight: 600;
-  color: #413b44;
+  font-family: "Nunito";
+  font-size: 1em;
+  font-weight: 400;
+  color: #1A181D;
   text-transform: none;
-  margin-top: 64px;
-}
-
-#about-content {
-  display: none;
-  margin-top: 64px;
-  font-family: "Open Sans";
-  font-size: 14px;
-  color: #413b44;
-}
-
-#myPic {
-  max-width: 12em;
-  float: left;
-  margin: 0 1em 1em 0;
-}
-
-#projects-content p {
-  margin-bottom: 8px;
-}
-
-#project-divs {
+  margin-top: 48px;
   display: grid;
-  height: 320px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-gap: 16px;
 }
 
-#project-divs a {
-  text-decoration: none;
-  font-family: "Josefin Slab";
-  font-weight: bold;
-  color: #61367d;
-  transition: .5s ease;
-  text-transform: lowercase;
+#text-content p {
+  margin-bottom: 24px;
 }
 
-#project-divs a:hover {
-  color: #413b44;
-  transition: .5s ease;
-}
-
-#project1, #project2, #project3, #project4 {
-  display: grid;
-  font-size: 14px;
-  font-weight: normal;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 8px;
-}
-
-#proj1-thumbnail:hover, #proj2-thumbnail:hover, #proj3-thumbnail:hover, #proj4-thumbnail:hover {
-  cursor: pointer;
-}
-
-#construction {
-  margin: 32px 0;
-  font-family: "Josefin Sans";
-  font-weight: 600;
-  font-size: 2em;
-  color: #413b44;
-  animation-name: fadein;
-  animation-duration: 1s;
-  -webkit-animation-name: fadein;
-  -webkit-animation-duration: 1s;
-  -moz-animation-name: fadein;
-  -moz-animation-duration: 1s;
-}
-
-#construction a {
-  text-decoration: none;
-  color: #61367d;
-  transition: .5s ease;
-}
-
-#construction a:hover {
-  color: #413b44;
-  transition: .5s ease;
-}
-
-#tagline, #endText {
-  color: #413B44;
+#text-content strong {
+  font-weight: 700;
+  color: #652E8A; 
 }
 
 #colorText {
-  color: #61367d;
+  color: #652E8A; 
 }
 
 #tagline, #colorText, #endText {
+  font-family: "Josefin Slab";
   display: inline;
-  font-size: 45px;
+  font-size: 2.75em;
   text-transform: lowercase;
   font-weight: 500;
 }
 
-footer {
-  width: 100%;
-  display: block;
-  margin: 2em auto;
-  position: absolute;
-  bottom: 0;
-  min-height: 76px;
-  font-family: "Josefin Slab";
-  font-weight: 600;
+#copyright {  
+  font-size: .5em;
+  color: #652E8A;
 }
 
-#copyright {
-  text-align: center;
-  font-size: 2em;
-  color: #61367d;
-  margin: 1em 1em 0 1em;
-}
-
-#footerButtons {
-  width: 128px;
-  display: grid;
-  margin: auto;
-  grid-template-columns: auto auto auto;
-  grid-gap: 12px;
-}
-
-#figma, #linkedin, #email {
-  border: 2px solid #61367d;
-  border-radius: 100%;
-  height: 32px;
-  width: 32px;
-}
-
-#figma img, #linkedin img, #email img {
-  display: block;
-  margin: auto;
-}
-
-#figma img {
-  margin-top: 8px;
-}
-
-#linkedin img {
-  margin-top: 9px;
-}
-
-#email img {
-  margin-top: 10px;
-}
-
-#figma:hover, #linkedin:hover, #email:hover {
-  cursor: pointer;
-  border: 2px dashed #61367d;
+#bunnies {
+  padding-bottom: 0;
 }

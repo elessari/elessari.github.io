@@ -6,92 +6,41 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fafafa">
-    
-    <!-- Google AdSense -->
-    <!-- <script data-ad-client="ca-pub-7602206384507122" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-
     <link rel="manifest" href="site.webmanifest">
-    <link rel="icon" href="assets/images/new-logo.png">
+    <link rel="icon" href="assets/images/bunnies.svg">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <link rel="stylesheet" type="text/css" href="assets/css/media-queries.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Josefin+Slab:200,300,500,600,700|Josefin+Sans|Josefin+Sans:200,300,500,600|Open+Sans:200,300,500,600|Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Josefin+Slab:200,300,500,600,700|Josefin+Sans|Josefin+Sans:200,300,500,600|Nunito:200,300,500,600,700,800,900|Nunito&display=swap" rel="stylesheet">
     <script src="assets/js/main.js"></script>
-    <!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
-	  <script src="assets/js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-	        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-	        crossorigin="anonymous">
-	  </script>
-    <script type="text/javascript" src="assets/js/scroll-to-anchor/jquery.smoothscroll.min.js"></script> -->
   </head>
   <body onload="loadHeader()">
     <header>
-      <a href="#" id="new-logo" onclick="changeDiv()"><img src="assets/images/new-logo.png"></a>
-      <nav>
-        <ul>
-          <li><a id="projects-link" href="#projects" class="active" onclick="changeDiv()">Projects</a></li>
-          <li><a id="about-link" href="#about" onclick="changeDiv()">About</a></li>
-          <li><a href="resume/Skorupski_Resume_09_2020.pdf" target="_blank">Resume</a></li>
-        </ul>
-      </nav>
+
     </header>
     <main>
       <h1 id="tagline"></h1><span id="colorText"></span><h1 id="endText"></h1>
-      <div id="projects-content">
-        <p id="proj-intro">Here's what I've been working on lately</p>
-        <div id="project-divs">
-          <div id="project1">
-            <a href="https://www.figma.com/file/7oJlEtY1LIh3RmoOHyAZiZ/Portfolio-ideas?node-id=0%3A1" target="_blank"><img src="assets/images/portfolio-redux.png" id="proj1-thumbnail" width="100%"></a>
-            <p>A complete redux of my portfolio and resume, intended to feel more refined, decisive, and professional with a more cohesive theme.<br><br><a href="https://www.figma.com/file/7oJlEtY1LIh3RmoOHyAZiZ/Portfolio-ideas?node-id=0%3A1" target="_blank">Figma Project</a></p>
-          </div>
-          <div id="project2">
-            <a href="https://sites.google.com/g.rit.edu/si-rit/home" target="_blank"><img src="assets/images/si-rit.png" id="proj2-thumbnail" width="100%"></a>
-            <p>Reimagining the Supplemental Instruction program at RIT through an app prototype created to more easily connect students and SI leaders.<br><br><a href="https://www.figma.com/file/gFhsgb7OoNNnJ9l7OCIxqtK8/The-SI-RIT-App" target="_blank">Figma Prototype</a> • <a href="https://sites.google.com/g.rit.edu/si-rit/hi-fi-evaluations?authuser=0" target="_blank">User Testing</a></p>
-          </div>
-          <div id="project3">
-            <a href="https://www.figma.com/file/oft4D6mq5Ci6qnyD29cTNZ/The-UX-Factor-Car-Dashboard?node-id=1%3A2" target="_blank"><img src="assets/images/car-dashboard.png" id="proj3-thumbnail" width="100%"></a>
-            <p>Designing the interface for the dashboard and center console, involving user research and analysis to guide design decisions.<br><br><a href="https://www.figma.com/file/oft4D6mq5Ci6qnyD29cTNZ/The-UX-Factor-Car-Dashboard?node-id=1%3A2" target="_blank">Figma Project</a></p>
-          </div>
-          <div id="project4">
-            <a href="https://www.figma.com/file/y8bakhKJHLgGY7QLSTUpBD/Newsite-Re-Design-2?node-id=1%3A3" target="_blank"><img src="assets/images/rit-news.png" id="proj4-thumbnail" width="100%"></a>
-            <p>Re-design of the RIT News website, utlizing the RIT branding guidelines to emulate the theme of the university in the news reel.<br><br><a href="https://www.figma.com/file/y8bakhKJHLgGY7QLSTUpBD/Newsite-Re-Design-2?node-id=1%3A3" target="_blank">Figma Project</a></p>
-          </div>
-        </div>
+      <div id="content">
+        <div id="text-content">
+          <p>I graduated from Rochester Institute of Technology in May 2020 with a B.S. in <strong>Human-Centered Computing.</strong></p>
+
+          <p>My pursuit of UX had roots in psychology and user research; I branched out in web design and development internships, which then stemmed into doing freelance design, and eventually bloomed into UX contract work with a lovely company known as <strong>Innovia CoLabs, LLC.</strong></p>
+
+          <p>While these uncertain times have left me and other new graduates feeling out of place, I’ve graciously found myself blossoming at Innovia as a <strong>UX Designer</strong>, and look forward to flourishing in the coming new year.</p>
+
+          <p>In my spare time, I enjoy the arts, hiking, fiddling with tech, making calligraphy, creative writing exercises, and raising my two adorable rabbits.</p>
       </div>
-      <div id="about-content">
-        <img src="assets/images/myProfile.jpg" id="myPic">
-        <p>I'm a recent graduate from RIT with a degree in Human-Centered Computing, and currently searching for full-time opportunities.<br><br>
-          My drive for UX was born from a young age, as growing up I observed relatives and friends struggle to use technology or experience frustrating roadblocks. My goal has always been to make technology friendly and easy to use for everyone, taking every user into consideration.<br><br>
-          Outside of UX design and development, I love to experience as many forms of art as I can. I create my own calligraphy and always find myself engrossed in books or in games with rich stories. I believe that sharing in artistic expressions of the human experience is vital to understanding and empathizing with users of every demographic, and creating a truly personalized user experience.<br></p></p>
+        <nav>
+          <ul>
+            <li><a id="linkedin-link" href="https://linkedin.com/in/sierra-skorupski" target="_blank">LinkedIn</a></li>
+            <li><a href="resume/Skorupski_Resume_12_2020.pdf" target="_blank">Resumé</a></li>
+            <li><a id="contact-link" href="mailto:sierra@innoviacolabs.com" target="_blank">Contact</a></li>
+
+            <li><a id="figma-link" href="https://www.figma.com/file/8YpR3KCwTBRGX5bPdi3TVV/Daily-UI-Challenge" target="_blank">Designs</a></li>
+            <li id="bunnies"><img src="assets/images/bunnies.svg" title="Snowy and Juniper" alt="Icon depicting two rabbits"></li>
+            <p id="copyright"> &copy; Sierra Skorupski</p>
+          </ul>
+        </nav>
       </div>
-      <div id="construction" style="display:none;"><p>Site under construction! Check back soon for updates - and in the meantime, check out my Figma projects!</p>
-      <p>
-        <a href="https://www.figma.com/file/7oJlEtY1LIh3RmoOHyAZiZ/Portfolio-ideas" target="_blank">Portfolio Redesign</a> |
-        <a href="https://www.figma.com/file/8YpR3KCwTBRGX5bPdi3TVV/Daily-UI-Challenge" target="_blank">Daily UI Challenges</a> |
-        <a href="https://www.figma.com/file/y8bakhKJHLgGY7QLSTUpBD/Newsite-Re-Design-2" target="_blank">RIT News Redesign</a> |
-        <a href="https://www.figma.com/file/gFhsgb7OoNNnJ9l7OCIxqtK8/The-SI-RIT-App" target="_blank">SI @ RIT App Prototype</a> |
-        <a href="https://www.figma.com/file/qDuhgvyIrZmXd02MP846Ue/Teller" target="_blank">Teller App</a>
-      </p></div>
-    </main>
-    <footer>
-      <div id="footerButtons">
-        <a href="https://www.figma.com/file/8YpR3KCwTBRGX5bPdi3TVV/Daily-UI-Challenge" target="_blank">
-          <div id="figma" title="More Figma Projects!">
-            <img src="assets/images/figma-logo.png">
-          </div>
-        </a>
-        <a href="https://linkedin.com/in/sierra-skorupski" target="_blank">
-          <div id="linkedin" title="LinkedIn">
-            <img src="assets/images/linkedin-logo.png">
-          </div>
-        </a>
-        <a href="mailto:shs6196@rit.edu">
-          <div id="email" title="Email">
-            <img src="assets/images/email-logo.png">
-          </div>
-      </a>
-      </div>
-      <div id="copyright"><p>&copy; Sierra Skorupski</p></div>
-    </footer>
+      </main>
   </body>
 </html>

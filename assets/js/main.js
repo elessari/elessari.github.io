@@ -4,7 +4,7 @@ var theEnd;
 var i = 0;
 var j = 0;
 var k = 0;
-var text = "Hey, I'm Sierra, a ";
+var text = "Hello! I'm Sierra, a ";
 var colorText = "User Experience ";
 var endText = "Designer.";
 var speed = 50;
