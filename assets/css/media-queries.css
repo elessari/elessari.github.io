@@ -6,11 +6,6 @@
   main {
     margin: 32px 64px;
   }
-
-  #project1, #project2, #project3, #project4 {
-    display: block;
-    font-size: 13px;
-  }
 }
 
 @media only screen and (max-width: 512px) {
