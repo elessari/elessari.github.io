@@ -54,11 +54,6 @@ header {
   height: 160px;
 }
 
-nav {
- position: sticky;
- top: 0;
-}
-
 nav ul {
   list-style-type: none;
   font-family: "Josefin Slab";
@@ -172,7 +167,6 @@ main {
 #project-content p {
   margin-bottom: 24px;
 }
-
 
 #text-content p {
   margin-bottom: 24px;
