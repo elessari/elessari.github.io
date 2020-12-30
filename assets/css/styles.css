@@ -168,6 +168,25 @@ main {
   margin-bottom: 24px;
 }
 
+#project-content {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+#project-detail {
+  background: white;
+  border-radius: 16px;
+  padding: 48px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  position: relative;
+  top: -88px;
+  left: -48px;
+}
+#side-nav {
+  position: sticky;
+  top: 0;
+  margin-top: 64px;
+}
+
 #text-content p {
   margin-bottom: 24px;
 }
