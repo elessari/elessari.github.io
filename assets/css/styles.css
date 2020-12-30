@@ -146,9 +146,6 @@ main {
   font-weight: 600;
   text-transform: lowercase;
   margin-bottom: 24px;
-  position: absolute;
-  top: 144px;
-
 }
 
 #project-breadcrumb a {
@@ -169,16 +166,13 @@ main {
   color: #652E8A;
   font-size: 1.25em;
   text-transform: lowercase;
+  margin-bottom: 16px;
+}
+
+#project-content p {
   margin-bottom: 24px;
 }
 
-#project-content {
-  background: white;
-  padding: 48px;
-  border-radius: 16px;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
-  width: 66%;
-}
 
 #text-content p {
   margin-bottom: 24px;
