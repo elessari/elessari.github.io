@@ -166,11 +166,11 @@ main {
   color: #652E8A;
   font-size: 1.25em;
   text-transform: lowercase;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 #project-content p {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 #project-content {
