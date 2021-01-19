@@ -146,6 +146,17 @@ main {
   margin: 0 0 1em 1em;
 }
 
+.designs {
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.designs img {
+  max-width: 6em;
+}
+
 #project-breadcrumb {
   font-family: "Josefin Slab";
   color: #1A181D;
