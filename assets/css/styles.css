@@ -140,6 +140,12 @@ main {
   text-transform: none;
 }
 
+.preview {
+  float: right;
+  max-width: 10em;
+  margin: 0 0 1em 1em;
+}
+
 #project-breadcrumb {
   font-family: "Josefin Slab";
   color: #1A181D;
@@ -171,6 +177,14 @@ main {
 
 #project-content p {
   margin-bottom: 32px;
+}
+
+#project-content ul {
+margin-left: 24px;
+}
+
+#requirements {
+  margin-bottom: 0;
 }
 
 #project-content {
