@@ -274,9 +274,11 @@ main {
   font-weight: 500;
 }
 
-#copyright {  
-  font-size: .5em;
+#copyright {
+  font-family: "Noto Sans"; 
+  font-size: .35em;
   color: #652E8A;
+  text-align: right;
 }
 
 #bunnies {
