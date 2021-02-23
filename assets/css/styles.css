@@ -208,6 +208,7 @@ main {
   font-size: 1.25em;
   text-transform: lowercase;
   margin-bottom: 8px;
+  font-weight: 600;
 }
 
 #project-content p {
@@ -238,6 +239,11 @@ main {
   top: -88px;
   left: -48px;
 }
+
+#project-detail p {
+  font-size: 14px;
+}
+
 #side-nav {
   margin-top: 64px;
 }
