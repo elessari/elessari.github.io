@@ -160,6 +160,16 @@ h3 {
   text-transform: lowercase;
 }
 
+#mockup-credit {
+  font-family: "Noto Sans";
+  font-weight: 300;
+  font-size: .75em;
+  padding: 2rem;
+  text-align: right;
+  color: #777;
+
+}
+
 #project-cards {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
