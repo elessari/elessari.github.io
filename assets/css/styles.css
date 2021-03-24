@@ -148,6 +148,10 @@ strong {
   display: inline;
 }
 
+#about-content a {
+  color:#652E8A;
+}
+
 #projects-content, #about-content {
   animation-name: fadein;
   animation-duration: 1s;
