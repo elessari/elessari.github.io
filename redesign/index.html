@@ -15,37 +15,34 @@
   </head>
   <body onload="loadHeader()">
     <header>
-
+      <nav>
+        <ul>
+          <li id="bunnies"><a href="#"><img src="assets/images/origami-logo-right-32px.png" alt="Icon depicting an origami rabbit"></a></li>
+          <li><a id="projects-link" onclick="changeDiv()">Projects</a></li>
+          <li><a id="about-link" onclick="changeDiv()">About</a></li>
+          <li><a href="resume/Skorupski_Resume_03_2021.pdf" target="_blank">Resumé</a></li>
+          <li><a id="contact-link" href="mailto:sierra@innoviacolabs.com" target="_blank">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1 id="tagline"></h1><span id="colorText"></span><h1 id="endText"></h1>
       <div id="content">
-        <div id="text-content">
+        <div id="projects-content">
+          <!-- <h3>and these are some of my favorite projects, works, and ideations.</h3> -->
+          <div id="project-cards">
+            <a href="" target="_blank"><img src="assets/images/si-project-card.png"></a>
+            <a href="" target="_blank"><img src="assets/images/car-project-card.png"></a>
+          </div>
+          <p>looking for more? design sprints, ideations and fledgling projects can be found <strong><a href="" target="_blank">here</a></strong></p>
+        </div>
+        <div id="about-content" style="display:none;">
+          <img id="humaans" src="assets/images/humaans-me.png" alt="Illustration depicting a woman sitting on a ball">
           <p>I graduated from Rochester Institute of Technology in May 2020 with a B.S. in <strong>Human-Centered Computing.</strong></p>
-
           <p>My pursuit of UX had roots in psychology and user research; I branched out in web design and development internships, which then stemmed into doing freelance design, and eventually bloomed into UX contract work with a lovely company known as <strong><a href="https://innoviacolabs.com" target="_blank">Innovia CoLabs, LLC 🡕</a></strong>.</p>
-
-          <p>While these uncertain times have left me and other new graduates feeling out of place, I’ve graciously found myself blossoming at Innovia as a <strong>UX Designer</strong>, and look forward to flourishing in the coming new year.</p>
-
-          <p>In my spare time, I enjoy writing calligraphy, hiking, fiddling with tech, creative writing exercises, folding origami, and caring for my adorable rabbits.</p>
+          <p>In my free time, I enjoy writing calligraphy, hiking the trails, dabbling in code, creative writing, folding origami, and caring for my adorable rabbits.</p>
+        </div>
       </div>
-        <nav>
-          <ul>
-            <li><a id="works-link" href="/works/">Projects</a></li>
-            <li><a id="linkedin-link" href="https://linkedin.com/in/sierra-skorupski" target="_blank">LinkedIn</a></li>
-            <li><a href="resume/Skorupski_Resume_03_2021.pdf" target="_blank">Resumé</a></li>
-            <li><a id="contact-link" href="mailto:sierra@innoviacolabs.com" target="_blank">Contact</a></li>
-            <li id="bunnies"><img src="assets/images/origami-logo.png" alt="Icon depicting an origami rabbit"></li>
-            <p id="copyright"> &copy; Sierra Skorupski</p>
-          </ul>
-        </nav>
-      </div>
-      <h2 style="display:none;">projects, works, and <span>ideation</span></h2>
-      <div id="works" style="display:none;">
-        <div><img src="/assets/images/"></div>
-        <div>2</div>
-        <div>3</div>
-      </div>
-      </main>
+    </main>
   </body>
 </html>

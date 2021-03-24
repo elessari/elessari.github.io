@@ -1,0 +1,190 @@
+/* Colors 
+ * #FDFBFE: background;
+ * #26222A: text;
+ * #652E8A: main;
+ */
+
+ /* Keyframes */
+ @-webkit-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeout {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes fadeout {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes fadeout {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes fadeout {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  min-height: 96px;
+  width: 50rem;
+  display: block;
+  margin: auto;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+nav {
+  margin-top: 2rem;
+
+}
+
+nav ul {
+  height: 96px;
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  padding: 2rem 3rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:#652E8A;
+  font-weight: 300;
+  transition: .3s ease;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  transition: .3 ease;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+#bunnies {
+  padding-left: 0 !important;
+}
+
+#bunnies img {
+  width: 2rem;
+}
+
+#tagline, #colorText, #endText {
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2.5em;
+  text-transform: lowercase;
+  color: #26222A;
+  display: inline;
+}
+
+#colorText {
+  color: #652E8A !important;
+}
+
+body {
+  background: #fdfbfe;
+  font-family: "Noto Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #26222A;
+}
+
+main {
+  display: block;
+  max-width: 50rem;
+  margin: auto;
+  margin-top: 6em;
+}
+
+#content {
+  margin-top: 1.5em;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+strong {
+  color: #652E8A;
+}
+
+#humaans {
+  float: right;
+  display: inline;
+}
+
+#projects-content, #about-content {
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+h3 {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+#project-cards {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 32px;
+}
+
+#project-cards img {
+  width: 384px;
+  transform: scale(100%);
+  transition: .5s ease;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+
+#project-cards img:hover {
+  cursor: pointer;
+  transform: scale(110%);
+  transition: .5s ease;
+}
+
+#projects-content p {
+  font-family: "Josefin Sans";
+  text-transform: lowercase;
+  font-weight: 300;
+  font-size: 1em;
+}
