@@ -157,6 +157,7 @@ h3 {
   font-family: "Josefin Sans";
   font-weight: 300;
   font-size: 1.5em;
+  text-transform: lowercase;
 }
 
 #project-cards {
@@ -189,4 +190,101 @@ h3 {
   font-weight: 300;
   text-shadow: 0 0 0 #26222A;
   font-size: 1em;
+}
+
+.project-background-card {
+  background: white;
+  min-height: 500px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+  border-radius: 4px;
+}
+
+#breadcrumb {
+  position: absolute;
+  padding: 2rem;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+#breadcrumb a {
+  text-decoration: none;
+  color: #652E8A;
+  cursor: pointer;
+}
+
+#project-detail {
+  padding: 2rem;
+}
+
+#project-detail h1 {
+  margin-bottom: 1rem;
+}
+
+#project-detail h1, #project-detail h2 {
+  font-family: "Josefin Sans";
+  text-transform: lowercase;
+}
+
+#project-detail a {
+  color: #652E8A;
+}
+
+#project-detail h2 {
+  color:#652E8A;
+  margin-top: 2em;
+}
+
+#project-hero-image {
+  width: 100%;
+  border-bottom: 2px solid #652E8A;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+.designs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.designs img {
+  width: 232px;
+}
+
+#project-detail ul {
+  list-style-type: square;
+  margin-left: 2rem;
+}
+
+#project-detail ul li {
+  margin: 1em 0;
+}
+
+.hifis {
+  float: right;
+  margin: 1em 0 1em 1em;
+  max-width: 14em;
+}
+
+#back-to-top {
+  height: 32px;
+  width: 32px;
+  background:#652E8A;
+  color: white;
+  border-radius: 100%;
+  position: fixed;
+  top: 50em;
+  right: 25em;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#back-to-top a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }
