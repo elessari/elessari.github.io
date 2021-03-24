@@ -1,5 +1,11 @@
-/* Keyframes */
-@-webkit-keyframes fadein {
+/* Colors 
+ * #FDFBFE: background;
+ * #26222A: text;
+ * #652E8A: main;
+ */
+
+ /* Keyframes */
+ @-webkit-keyframes fadein {
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
@@ -35,7 +41,7 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 0
 }
 
 html {
@@ -44,286 +50,271 @@ html {
 }
 
 header {
-  position: relative;
-  top: 0;
-  max-width: 50rem;
+  min-height: 96px;
+  width: 50rem;
   display: block;
-  margin: 0 auto;
-  font-size: 4em;
-  font-weight: 600;
-  height: 160px;
-}
-
-nav {
-  position: sticky;
-  top: 0;
-}
-
-nav ul {
-  list-style-type: none;
-  font-family: "Josefin Slab";
-  font-size: 1.75em;
-  font-weight: 600;
-  text-align: right;
-}
-
-nav ul li {
-  padding: 18px;
-  padding-right: 0;
-}
-
-nav ul li:first-child {
-  padding-top: 0;
-}
-
-nav ul li a {
-  
-  text-decoration: none;
-  color: #1A181D;
-  transition: .3s ease;
+  margin: auto;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 300;
   text-transform: lowercase;
 }
 
-nav ul li a.active {
-  color: #652E8A;
+nav {
+  margin-top: 2rem;
+
 }
 
-nav ul li a:hover {
-  color: #652E8A;
+nav ul {
+  height: 96px;
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  padding: 2rem 3rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:#652E8A;
+  font-weight: 300;
   transition: .3s ease;
 }
 
+nav ul li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: .3 ease;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+#bunnies {
+  padding-left: 0 !important;
+}
+
+#bunnies img {
+  width: 2rem;
+}
+
+#tagline, #colorText, #endText {
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2.5em;
+  text-transform: lowercase;
+  color: #26222A;
+  display: inline;
+}
+
+#colorText {
+  color: #652E8A !important;
+}
+
 body {
-  background: #FDFBFE;
+  background: #fdfbfe;
+  font-family: "Noto Sans", Helvetica, sans-serif;
   font-size: 16px;
-  font-family: "Noto Sans";
+  color: #26222A;
+}
+
+main {
+  display: block;
+  max-width: 50rem;
+  margin: auto;
+  margin-top: 6em;
+}
+
+#content {
+  margin-top: 1.5em;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+strong {
+  color: #652E8A;
+}
+
+#humaans {
+  float: right;
+  display: inline;
+}
+
+#projects-content, #about-content {
   animation-name: fadein;
   animation-duration: 1s;
   animation-iteration-count: 1;
 }
 
-main {
-  max-width: 50rem;
-  display: block;
-  margin: 1em auto;
+h3 {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 1.5em;
+  text-transform: lowercase;
 }
 
-#content {
-  animation-name: fadein;
-  animation-duration: 2s;
-  -webkit-animation-name: fadein;
-  -webkit-animation-duration: 2s;
-  -moz-animation-name: fadein;
-  -moz-animation-duration: 2s;
-  font-family: "Noto Sans";
-  font-size: 1em;
-  font-weight: 400;
-  color: #1A181D;
-  text-transform: none;
-  margin-top: 48px;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 16px;
-}
-
-#content, #project-content {
-  animation-name: fadein;
-  animation-duration: 2s;
-  -webkit-animation-name: fadein;
-  -webkit-animation-duration: 2s;
-  -moz-animation-name: fadein;
-  -moz-animation-duration: 2s;
-  font-family: "Noto Sans";
-  font-size: 1em;
-  font-weight: 400;
-  color: #1A181D;
-  text-transform: none;
-}
-
-.preview {
-  float: right;
-  max-width: 10em;
-  margin: 0 0 1em 1em;
-  transition: .4s ease;
-}
-
-.preview:hover {
-  transform: scale(1.75);
-  transition: .4s ease;
-}
-
-.designs {
+#project-cards {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   display: grid;
   width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 32px;
 }
 
-.designs img {
-  max-width: 12em;
-  transition: .3s ease;
+#project-cards img {
+  width: 384px;
+  transform: scale(100%);
+  transition: .5s ease;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  border-radius: 4px;
 }
 
-.designs img:hover {
-  transform: scale(1.25);
-  transition: .3s ease;
+#project-cards img:hover {
+  cursor: pointer;
+  transform: scale(110%);
+  transition: .5s ease;
 }
 
-.hifis {
-  float: left;
-  margin: 1em 1em 1em 0;
-  max-width: 14em;
+#projects-content p {
+  font-family: "Josefin Sans";
+  text-transform: lowercase;
+  font-weight: 300;
+  text-shadow: 0 0 0 #26222A;
+  font-size: 1em;
+}
+
+.project-background-card {
+  background: white;
+  min-height: 500px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+  border-radius: 4px;
+}
+
+#breadcrumb {
+  position: absolute;
+  padding: 2rem;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+#breadcrumb a {
+  text-decoration: none;
+  color: #652E8A;
+  cursor: pointer;
+}
+
+#project-detail {
+  padding: 2rem;
+}
+
+#project-detail h1 {
+  margin-bottom: 1rem;
+}
+
+#project-detail h1, #project-detail h2 {
+  font-family: "Josefin Sans";
+  text-transform: lowercase;
 }
 
 #project-detail a {
   color: #652E8A;
-  font-weight: bold;
-  text-decoration: none;
 }
 
-#project-breadcrumb {
-  font-family: "Josefin Slab";
-  color: #1A181D;
-  font-weight: 600;
-  text-transform: lowercase;
-  margin-bottom: 24px;
+#project-detail h2 {
+  color:#652E8A;
+  margin-top: 2em;
 }
 
-#project-breadcrumb a {
-  color: #652E8A;
-  text-decoration: none;
-}
-
-#project-title {
-  font-family: "Josefin Slab";
-  color: #1A181D;
-  font-size: 2.75em;
-  text-transform: lowercase;
-  font-weight: 500;
-  margin-bottom: 32px;
-}
-
-.project-headers {
-  color: #652E8A;
-  font-size: 1.25em;
-  text-transform: lowercase;
-  margin-bottom: 8px;
-  font-weight: 600;
-}
-
-#project-content p {
-  margin-bottom: 32px;
-}
-
-#project-content ul {
-  margin-left: 24px;
-  margin-top: -24px;
-}
-
-#project-content p ul li {
-  padding: .25em;
-}
-
-
-
-#project-content {
-  display: grid;
-  grid-template-columns: 4fr 1fr;
-}
-#project-detail {
-  background: white;
-  border-radius: 16px;
-  padding: 48px;
-  box-shadow: 0 0 4px rgba(0,0,0,0.2);
-  position: relative;
-  top: -88px;
-  left: -48px;
-}
-
-#project-detail p {
-  font-size: 14px;
-}
-
-#side-nav {
-  margin-top: 64px;
-}
-
-#text-content p {
-  margin-bottom: 24px;
-}
-
-#text-content strong {
-  font-weight: 700;
-  color: #652E8A; 
-}
-
-#text-content strong a {
-  text-decoration: none;
-  color: #652E8A;
-  transition: .5s ease;
-}
-
-#text-content strong a:hover {
-  text-decoration: underline;
-  transition: .5s ease;
-}
-
-#colorText {
-  color: #652E8A; 
-}
-
-#tagline, #colorText, #endText {
-  font-family: "Josefin Slab";
-  display: inline;
-  font-size: 2.75em;
-  text-transform: lowercase;
-  font-weight: 500;
-}
-
-#copyright {
-  font-family: "Noto Sans"; 
-  font-size: .35em;
-  color: #652E8A;
-  text-align: right;
-}
-
-#bunnies {
-  padding-bottom: 0;
-}
-
-h2 {
-  font-family: "Josefin Slab";
-  font-weight: 600;
-  color: #1A181D;
-  font-size: 2em;
-}
-
-h2 span {
-  color: #652E8A;
-}
-
-hr {
-  border-top: 1px dotted #652E8A;
-}
-
-#works {
-  max-width: 576px;
-  display: grid;
-  max-height: 600px;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 32px;
-  margin: 0 auto;
-}
-
-#works img {
-  width: 96%;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
-  border-radius: 16px;
-  cursor: pointer;
-  transition: .3s ease;
-}
-
-#works img:hover {
+#project-hero-image {
   width: 100%;
-  transition: .3s ease;
+  border-bottom: 2px solid #652E8A;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+.designs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.designs img {
+  width: 232px;
+}
+
+#project-detail ul {
+  list-style-type: square;
+  margin-left: 2rem;
+}
+
+#project-detail ul li {
+  margin: 1em 0;
+}
+
+.hifis {
+  float: right;
+  margin: 1em 0 1em 1em;
+  max-width: 14em;
+}
+
+#back-to-top {
+  height: 32px;
+  width: 32px;
+  background:#652E8A;
+  color: white;
+  border-radius: 100%;
+  position: fixed;
+  top: 50em;
+  right: 25em;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#back-to-top a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  display: block;
+  margin: 1em auto;
+  position: fixed;
+  bottom: 0;
+  font-family: "Josefin Sans";
+  font-size: .75em;
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.social-icons div {
+  padding: .5em;
+  border-radius: 100%;
+  margin-right: .5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+footer p {
+  text-align: center;
 }
