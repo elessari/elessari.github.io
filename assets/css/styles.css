@@ -1,7 +1,7 @@
 /* Colors 
  * #FDFBFE: background;
  * #26222A: text;
- * #652E8A: main;
+ * #6509DC: main;
  */
 
  /* Keyframes */
@@ -54,7 +54,7 @@ header {
   width: 50rem;
   display: block;
   margin: auto;
-  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-family: "Outfit", Helvetica, sans-serif;
   font-size: 1.75rem;
   font-weight: 300;
   text-transform: lowercase;
@@ -80,13 +80,13 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color:#652E8A;
+  color:#6509DC;
   font-weight: 300;
   transition: .3s ease;
 }
 
 nav ul li a:hover {
-  cursor: pointer;
+  cursor: poOutfit;
   text-decoration: underline;
   transition: .3 ease;
 }
@@ -104,7 +104,7 @@ nav ul li a.active {
 }
 
 #tagline, #colorText, #endText {
-  font-family: 'Josefin Sans', Helvetica, sans-serif;
+  font-family: 'Outfit', Helvetica, sans-serif;
   font-weight: normal;
   font-size: 2.5em;
   text-transform: lowercase;
@@ -113,13 +113,14 @@ nav ul li a.active {
 }
 
 #colorText {
-  color: #652E8A !important;
+  color: #6509DC !important;
 }
 
 body {
   background: #fdfbfe;
-  font-family: "Noto Sans", Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
   font-size: 16px;
+  font-weight: 500;
   color: #26222A;
 }
 
@@ -140,7 +141,7 @@ p {
 }
 
 strong {
-  color: #652E8A;
+  color: #6509DC;
 }
 
 #humaans {
@@ -149,7 +150,7 @@ strong {
 }
 
 #about-content a {
-  color:#652E8A;
+  color:#6509DC;
 }
 
 #projects-content, #about-content {
@@ -159,14 +160,14 @@ strong {
 }
 
 h3 {
-  font-family: "Josefin Sans";
+  font-family: "Outfit";
   font-weight: 300;
   font-size: 1.5em;
   text-transform: lowercase;
 }
 
 #mockup-credit {
-  font-family: "Noto Sans";
+  font-family: "Lato";
   font-weight: 300;
   font-size: .75em;
   padding: 2rem 2rem 1rem 0;
@@ -193,13 +194,13 @@ h3 {
 }
 
 #project-cards img:hover {
-  cursor: pointer;
+  cursor: poOutfit;
   transform: scale(110%);
   transition: .5s ease;
 }
 
 #projects-content p {
-  font-family: "Josefin Sans";
+  font-family: "Outfit";
   text-transform: lowercase;
   font-weight: 300;
   text-shadow: 0 0 0 #26222A;
@@ -227,8 +228,8 @@ h3 {
 
 #breadcrumb a {
   text-decoration: none;
-  color: #652E8A;
-  cursor: pointer;
+  color: #6509DC;
+  cursor: poOutfit;
 }
 
 #project-detail {
@@ -240,16 +241,16 @@ h3 {
 }
 
 #project-detail h1, #project-detail h2 {
-  font-family: "Josefin Sans";
+  font-family: "Outfit";
   text-transform: lowercase;
 }
 
 #project-detail a {
-  color: #652E8A;
+  color: #6509DC;
 }
 
 #project-detail h2 {
-  color:#652E8A;
+  color:#6509DC;
   margin-top: 2em;
 }
 
@@ -259,7 +260,7 @@ h3 {
 
 #hero-img {
   width: 100%;
-  border-bottom: 3px solid #652E8A;
+  border-bottom: 3px solid #6509DC;
 }
 
 .designs {
@@ -290,7 +291,7 @@ h3 {
 #back-to-top {
   height: 32px;
   width: 32px;
-  background:#652E8A;
+  background:#6509DC;
   color: white;
   border-radius: 100%;
   position: fixed;
@@ -313,8 +314,8 @@ footer {
   margin: 1em auto;
   position: fixed;
   bottom: 0;
-  font-family: "Josefin Sans";
-  font-size: .75em;
+  font-family: "Outfit";
+  font-size: .85em;
 
 }
 

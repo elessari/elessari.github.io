@@ -5,7 +5,7 @@ var i = 0;
 var j = 0;
 var k = 0;
 var text = "Hello! I'm Sierra, a ";
-var colorText = "User Experience ";
+var colorText = "Human-Centered ";
 var endText = "Designer.";
 var speed = 50;
 
