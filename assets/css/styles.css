@@ -54,7 +54,7 @@ header {
   width: 50rem;
   display: block;
   margin: auto;
-  font-family: "Outfit", Helvetica, sans-serif;
+  font-family: "Outfit", Helvetica, Arial, sans-serif;
   font-size: 1.75rem;
   font-weight: 300;
   text-transform: lowercase;
@@ -105,7 +105,7 @@ nav ul li a.active {
 }
 
 #tagline, #colorText, #endText {
-  font-family: 'Outfit', Helvetica, sans-serif;
+  font-family: "Outfit", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 2.5em;
   text-transform: lowercase;
@@ -119,7 +119,7 @@ nav ul li a.active {
 
 body {
   background: #fdfbfe;
-  font-family: "Lato", Helvetica, sans-serif;
+  font-family: "Outfit", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #26222A;
@@ -168,7 +168,7 @@ h3 {
 }
 
 #mockup-credit {
-  font-family: "Lato";
+  font-family: "Outfit";
   font-weight: 300;
   font-size: .75em;
   padding: 2rem 2rem 1rem 0;
